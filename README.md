@@ -7,7 +7,7 @@ The reason I choose this minor is because there is more data available in the ci
 
 # Table of Contents
 
-- [1. Jargon](#1-jargon)
+- [1. Jargon](#1-Jargon)
 - [2. Personal development](#2-Personal-development)
   - [2.1 Data Camp courses](#21-Data-Camp-courses)
   - [2.2 Machine-learning](#22-Machine-learning)
@@ -41,8 +41,8 @@ The reason I choose this minor is because there is more data available in the ci
 - [7. Presentaties](#7-Presentaties)
 - [8. Self reflection](#7-Self-reflection)
 
-
-# Personal development
-Some text.
-# Project Ortho eyes
-mmmm
+# Jargon
+# 1. Personal-development
+## 1.1 Data Camp courses
+## 1.2 Machine learning
+## 1.3 Online-courses
