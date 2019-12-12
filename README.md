@@ -25,7 +25,7 @@ The reason I choose this minor is because there is more data available in the ci
   - [5.1 Machine learning Lectures](#51-Machine-learning-Lectures)
   - [5.1 Preparing data for Machine learning model](#51-Preparing-data-for-Machine-learning-model)
 - [6. Data Cleaning](#5-Data-cleaning)
-  - [6.1 Steps in cleaning The data](#61-Steps-in-cleaning-The-data)
+  - [6.1 Steps in cleaning The data](#61-Steps-in-cleaning-the-data)
   - [6.2 Removing the idle](#62-Removing-the-idle)
 - [7. Enriching the The data](#7-Enriching-the-The-data)
   - [7.1 Different methods of data enrichment](#71-Different-methods-of-data-enrichment)
@@ -65,17 +65,17 @@ The reason I choose this minor is because there is more data available in the ci
 ## 5.1 Machine learning Lectures
 ## 5.1 Preparing data for Machine learning model
 # 6. Data Cleaning
-## 6.1 Steps in cleaning The data
+## 6.1 Steps in cleaning the data
 ## 6.2 Removing the idle
 # 7. Enriching the The data
 ## 7.1 Different methods of data enrichment
-##  7.1.1 configuration
+##  7.1.1 Configurations
 ## 7.2 Logistic regression model
 ### 7.2.1 Outcome of the model
-### 7.2.2 model evaluation
+### 7.2.2 Model evaluation
 ## 7.3 Neural Networks
-###  7.3.1 recurrent neural network (RNN)
-###  7.3.2 convolutional neural network
+###  7.3.1 Recurrent neural network (RNN)
+###  7.3.2 Convolutional neural network
 # 8. Research paper
 # 9. Presentaties
 # 10. Self reflection
