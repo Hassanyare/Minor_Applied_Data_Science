@@ -9,7 +9,7 @@ The reason I choose this minor is because there is more data available in the ci
 
 # Inhoudsopgave 
 - [3. Project Ortho eyes](#3-Project Ortho eyes)
-  - [3.1 Project's scope and relevance](#31-Project's scope and relevance)
+  - [3.1 Project's scope and relevance](#31-Project scope and relevance)
      - [3.1.1 Scrumboard](#311-scrumboard)
      - [3.1.2 Scrum by Vince](#312-scrum-by-vince)
   - [3.2 Zelfontwikkeling](#32-zelfontwikkeling)
