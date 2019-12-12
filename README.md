@@ -7,16 +7,14 @@ The reason I choose this minor is because there is more data available in the ci
 
 # Table of Contents
 
-1. [xxxx](#xxxx)
-  1. [xxxx](#xxxx)
-
 1. [Personal development](#Personal development)
+  1. [Data camp courses](#Data camp courses)
+  2. [Machine learning](#Machine learning)
+  3. [Online courses](#Online courses)
+
+1. [Project Ortho eyes](#Personal development)
+  1. [Project's scope and relevance](#Data camp courses)
+  2. [Our research question](#Our research question)
+  3. [Strategy and project management](#Strategy and project management)
 
 
-  1.[Data camp courses ](#Data camp courses )
-  2.[Machine learning lectures](#Machine learning lectures)
-  3.[Online courses](#Online courses)
-2. [Project Ortho eyes](#Project Ortho eyes)
-  1. [Project's scope and relevance](#Project's scope and relevance)
-  2. [The main aim of the project](#The main aim of the project)
-  3. [Strategy and project management](#Online courses)
