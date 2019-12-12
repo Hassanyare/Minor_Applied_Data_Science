@@ -24,22 +24,21 @@ The reason I choose this minor is because there is more data available in the ci
 - [5. Machnine Learning](#5-Machnine-Learning)
   - [5.1 Machine learning Lectures](#51-Machine-learning-Lectures)
   - [5.1 Preparing data for Machine learning model](#51-Preparing-data-for-Machine-learning-model)
-- [6. Data Cleaning](#5-Data-cleaning)
+- [6. Data Cleaning and Enrichment](#6-Data-cleaning-and-Enrichment)
   - [6.1 Steps in cleaning The data](#61-Steps-in-cleaning-the-data)
   - [6.2 Removing the idle](#62-Removing-the-idle)
-- [7. Enriching the The data](#7-Enriching-the-The-data)
-  - [7.1 Different methods of data enrichment](#71-Different-methods-of-data-enrichment)
-    - [7.1.1 configuration](#711-configuration)
-  - [7.2 Logistic regression model](#72-Logistic-regression-model)
-     - [7.2.1 Outcome of the model](#721-Outcome-of-the-model)
-     - [7.2.2 model evaluation](#722-model-evaluation)
- - [7.3 Neural Networks](#63-Neural-Networks)
-     - [7.3.1 recurrent neural network (RNN)](#731-recurrent-neural-network-(RNN))
-     - [7.3.2 convolutional neural network](#732-convolutional-neural-network)
+  - [6.3 Different methods of data enrichment](#63-Different-methods-of-data-enrichment)
+- [7. Logistic regression model](#7-Logistic-regression-model)
+     - [7.1 Configuration](#71-configuration)
+     - [7.2 Outcome of the model](#72-Outcome-of-the-model)
+     - [7.2 model evaluation](#72-model-evaluation)
+ - [8. Neural Networks](#8-Neural-Networks)
+     - [8.1 recurrent neural network (RNN)](#81-recurrent-neural-network-(RNN))
+     - [8.2 convolutional neural network](#82-convolutional-neural-network)
 
-- [7. Research paper](#7-Research-paper)
-- [7. Presentaties](#7-Presentaties)
-- [8. Self reflection](#7-Self-reflection)
+- [9. Research paper](#7-Research-paper)
+- [10. Presentaties](#7-Presentaties)
+- [11. Self reflection](#7-Self-reflection)
 
 # 1. Jargons
 
@@ -64,18 +63,17 @@ The reason I choose this minor is because there is more data available in the ci
 # 5. Machnine Learning
 ## 5.1 Machine learning Lectures
 ## 5.1 Preparing data for Machine learning model
-# 6. Data Cleaning
+# 6. Data Cleaning and Enriching
 ## 6.1 Steps in cleaning the data
 ## 6.2 Removing the idle
-# 7. Enriching the The data
-## 7.1 Different methods of data enrichment
-##  7.1.1 Configurations
-## 7.2 Logistic regression model
-### 7.2.1 Outcome of the model
-### 7.2.2 Model evaluation
-## 7.3 Neural Networks
-###  7.3.1 Recurrent neural network (RNN)
-###  7.3.2 Convolutional neural network
-# 8. Research paper
-# 9. Presentaties
-# 10. Self reflection
+## 6.3 Different methods of data enrichment
+# 7. Logistic regression model
+## 7.1  Configurations
+## 7.2 Outcome of the model
+## 7.3 Model evaluation
+# 8. Neural Networks
+## 8.1 Recurrent neural network (RNN)
+## 8.2 Convolutional neural network
+# 9. Research paper
+# 10. Presentaties
+# 11. Self reflection
