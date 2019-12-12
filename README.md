@@ -7,7 +7,7 @@ The reason I choose this minor is because there is more data available in the ci
 
 # Table of Contents
 
-[Personal development](#Personal development)
+[I'm an inline-style link](https://www.google.com)
 
 1.[Personal development](#Personal development)
   1.[Data camp courses](#Data camp courses)
