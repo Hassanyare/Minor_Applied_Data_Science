@@ -28,7 +28,7 @@ The reason I choose this minor is because there is more data available in the ci
   - [6.1 Steps in cleaning The data](#61-Steps-in-cleaning-The-data)
   - [6.2 Removing the idle](#62-Removing-the-idle)
 - [7. Enriching the The data](#7-Enriching-the-The-data)
-  - [7.1 Creëren data](#71-creëren-data)
+  - [7.1 Different methods of data enrichment](#71-Different-methods-of-data-enrichment)
     - [7.1.1 configuration](#711-configuration)
   - [7.2 Logistic regression model](#72-Logistic-regression-model)
      - [7.2.1 Outcome of the model](#721-Outcome-of-the-model)
@@ -41,7 +41,7 @@ The reason I choose this minor is because there is more data available in the ci
 - [7. Presentaties](#7-Presentaties)
 - [8. Self reflection](#7-Self-reflection)
 
-# 1. Jargon
+# 1. Jargons
 
 # 2. Personal-development
 ## 2.1 Data Camp courses
@@ -68,11 +68,11 @@ The reason I choose this minor is because there is more data available in the ci
 ## 6.1 Steps in cleaning The data
 ## 6.2 Removing the idle
 # 7. Enriching the The data
-## 7.1 Creëren data
+## 7.1 Different methods of data enrichment
 ##  7.1.1 configuration
 ## 7.2 Logistic regression model
-### 7.2.3 Outcome of the model
-### 7.2.3 model evaluation
+### 7.2.1 Outcome of the model
+### 7.2.2 model evaluation
 ## 7.3 Neural Networks
 ###  7.3.1 recurrent neural network (RNN)
 ###  7.3.2 convolutional neural network
