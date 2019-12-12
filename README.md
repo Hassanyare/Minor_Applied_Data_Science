@@ -75,5 +75,5 @@ The reason I choose this minor is because there is more data available in the ci
 ## 8.1 Recurrent neural network (RNN)
 ## 8.2 Convolutional neural network
 # 9. Research paper
-# 10. Presentaties
+# 10. Presentations
 # 11. Self reflection
