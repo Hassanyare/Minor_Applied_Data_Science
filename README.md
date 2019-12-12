@@ -42,7 +42,14 @@ The reason I choose this minor is because there is more data available in the ci
 - [8. Self reflection](#7-Self-reflection)
 
 # 1. Jargon
+
 # 2. Personal-development
 ## 2.1 Data Camp courses
 ## 2.2 Machine learning
 ## 2.3 Online-courses
+
+# 3. Project Ortho Eyes
+## 3.1 Project's scope and relevance
+## 3.2 Strategy 
+### 3.2.1 Reproducing last group's work
+### 3.2.2 Research proposal
