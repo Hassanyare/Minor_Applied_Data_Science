@@ -8,8 +8,8 @@ The reason I choose this minor is because there is more data available in the ci
 # Table of Contents
 
 - [1. Jargon](#1-jargon)
-- [3. Project Ortho Eyes](#3-pre-data)
-  - [3.1 Opzetten project management](#31-opzetten-projectmanagement)
+- [2. Project Ortho Eyes](#3-pre-data)
+  - [2.1 Project's relevance](#31-Project's scope and relevance)
      - [3.1.1 Scrumboard](#311-scrumboard)
      - [3.1.2 Scrum by Vince](#312-scrum-by-vince)
   - [3.2 Zelfontwikkeling](#32-zelfontwikkeling)
