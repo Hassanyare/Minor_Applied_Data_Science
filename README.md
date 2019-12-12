@@ -8,6 +8,10 @@ The reason I choose this minor is because there is more data available in the ci
 # Table of Contents
 
 # Inhoudsopgave 
+[4. Raw data](#4-raw-data)
+  [4.1 Visualisatie](#41-visualisatie)
+  [4.2 Ellebooghoek](#42-ellebooghoek)
+  
 [1. Project Ortho eyes](#1-Project Ortho eyes)
   [1.1. Project's scope and relevance](#2-Project's scope and relevance)
   [1.2. Our research question](#3-Our research question)
