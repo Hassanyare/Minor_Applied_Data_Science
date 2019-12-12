@@ -7,6 +7,21 @@ The reason I choose this minor is because there is more data available in the ci
 
 # Table of Contents
 
+# Inhoudsopgave 
+- [1. Jargon](#1-jargon)
+- [2. Onderzoek](#2-onderzoek)
+- [3. Pre-data](#3-pre-data)
+  - [3.1 Opzetten project management](#31-opzetten-projectmanagement)
+     - [3.1.1 Scrumboard](#311-scrumboard)
+     - [3.1.2 Scrum by Vince](#312-scrum-by-vince)
+  - [3.2 Zelfontwikkeling](#32-zelfontwikkeling)
+     - [3.2.1 DataCamp Voortgang](#321-datacamp-voortgang)
+     - [3.2.1 Coursera Voortgang](#321-coursera-voortgang)
+  - [3.3 Strategie](#33-strategie)
+- [4. Raw data](#4-raw-data)
+  - [4.1 Visualisatie](#41-visualisatie)
+  - [4.2 Ellebooghoek](#42-ellebooghoek)
+
 [Personal development](# Personal development)
 
 1.[Personal development](#Personal development)
