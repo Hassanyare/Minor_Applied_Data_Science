@@ -8,13 +8,15 @@ The reason I choose this minor is because there is more data available in the ci
 # Table of Contents
 
 # Inhoudsopgave 
-[1. Jargon](#1-jargon)
-[2. Onderzoek](#2-onderzoek)
-[3. Pre-data](#3-pre-data)
+[1. Project Ortho eyes](#1-Project Ortho eyes)
+  [1.1. Project's scope and relevance](#2-Project's scope and relevance)
+  [1.2. Our research question](#3-Our research question)
+  [1.3. Strategy and project management](#3-Strategy and project management)
 
 [4. Raw data](#4-raw-data)
-[4.1 Visualisatie](#41-visualisatie)
-[4.2 Ellebooghoek](#42-ellebooghoek)
+  [4.1 Visualisatie](#41-visualisatie)
+  [4.2 Ellebooghoek](#42-ellebooghoek)
+
 [Personal development](# Personal development)
 
 1.[Personal development](#Personal development)
