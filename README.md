@@ -11,10 +11,10 @@ The reason I choose this minor is because there is more data available in the ci
 2.2	Machine learning lectures 
 2.3	Online courses and research 
 
-1. [Personal development](#Personal development)
-  1. [Data camp courses ](#Data camp courses )
-  2. [Machine learning lectures](#Machine learning lectures)
-  3. [Online courses](#Online courses)
+1.[Personal development](#Personal development)
+  1.[Data camp courses ](#Data camp courses )
+  2.[Machine learning lectures](#Machine learning lectures)
+  3.[Online courses](#Online courses)
 
 2. [Project Ortho eyes](#Project Ortho eyes)
   1. [Project's scope and relevance](#Project's scope and relevance)
