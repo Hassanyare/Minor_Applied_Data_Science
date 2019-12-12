@@ -8,6 +8,16 @@ The reason I choose this minor is because there is more data available in the ci
 # Table of Contents
 
 # Inhoudsopgave 
+- [3. Project Ortho eyes](#3-Project Ortho eyes)
+  - [3.1 Project's scope and relevance](#31-Project's scope and relevance)
+     - [3.1.1 Scrumboard](#311-scrumboard)
+     - [3.1.2 Scrum by Vince](#312-scrum-by-vince)
+  - [3.2 Zelfontwikkeling](#32-zelfontwikkeling)
+     - [3.2.1 DataCamp Voortgang](#321-datacamp-voortgang)
+     - [3.2.1 Coursera Voortgang](#321-coursera-voortgang)
+
+
+
 [1. Raw data](#4-raw-data)
   [1.1 Visualisatie](#41-visualisatie)
   [1.2 Ellebooghoek](#42-ellebooghoek)
