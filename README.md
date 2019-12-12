@@ -7,7 +7,7 @@ The reason I choose this minor is because there is more data available in the ci
 
 # Table of Contents
 
-[I'm an inline-style link](https://www.google.com)
+[Personal development](#Personal development)
 
 1.[Personal development](#Personal development)
   1.[Data camp courses](#Data camp courses)
@@ -20,7 +20,7 @@ The reason I choose this minor is because there is more data available in the ci
   3. [Strategy and project management](#Strategy and project management)
 
 
-## Personal development
+# Personal development
 Some text.
-## Project Ortho eyes
+# Project Ortho eyes
 mmmm
