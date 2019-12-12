@@ -17,58 +17,30 @@ The reason I choose this minor is because there is more data available in the ci
   - [3.2 Strategy](#32- Research-proposal)
      - [3.2.1 Reproducing last group's work](#321-Reproducing-last-groups-work)
      - [3.2.1 Research proposal](#321-Research-proposal)
-- [4. Explotory Data Analysis](#4-Explotory-Data-Analysis)
-  - [4.1 Visualizations](#41-Visualizations)
+- [4. The data as we know](#4-The-data-as-we-know)
+  - [4.1 Flock of birds system](#41-Flock-of-birds-system)
+  - [4.1 Raw visualization](#41-Raw-visualization)
+  - [4.1 Visualizations converted data](#41-Visualizations-converted-data)
 - [5. Machnine Learning](#5-Machnine-Learning)
-  - [5.1 Machine learning Lectures](#51-Machine learning Lectures)
+  - [5.1 Machine learning Lectures](#51-Machine-learning-Lectures)
   - [5.1 Preparing data for Machine learning model](#51-Preparing-data-for-Machine-learning-model)
 - [6. Data Cleaning](#5-Data-cleaning)
-  - [6.1 CCC](#51-gecleande-visualisatie---bewegend-skelet)
-  - [6.2 Gecleande Visualisatie - bovenarm](#52-gecleande-visualisatie---bovenarm)
-  - [6.3 Classifiers - cleaned data](#53-classifiers---cleaned-data)
-     - [5.4.1 Classifier 1, 2, 3, 4](#541-classifier-1-2-3-4)
-     - [5.4.2 Classifier 5 (5 classifiers combined)](#542-classifier-5-5-classifiers-combined)
-     - [5.4.3 Classifier 10 t/m 21 (Category 1 vs 2 (True vs False))](#543-classifier-10-tm-21-category-1-vs-2-true-vs-false)
-     - [5.4.4 Classifier 25 t/m 48 (Category 1 vs 2 .MAX)](#544-classifier-25-tm-48-category-1-vs-2-max)
-     - [5.4.5 Classifier 49 (Multivariate classifier MAX.ABS)](#545-classifier-49-multivariate-classifier-maxabs)
-     - [5.4.6 Oefening Classifier](#546-oefening-classifier)
-  - [5.5 Energie berekenen](#55-energie-berekenen)
-     - [5.5.1 Classifier Energie](#551-classifier-energie)
-  - [5.6 Toppen berekenen](#56-toppen-berekenen)
-- [6. Super cleaned data](#6-super-cleaned-data)
-  - [6.1 Creëren data](#61-creëren-data)
-     - [6.1.1 Toepassen splitsing](#611-toepassen-splitsing)
-  - [6.2 Oefening onderzoek](#62-oefening-onderzoek)
-  - [6.3 Classifier Super cleaned data](#63-classifier-super-cleaned-data)
-     - [6.3.1 creëren dataset](#631-creëren-dataset)
-     - [6.3.2 Classifier 55 t/m 58 (Final Classifier)](#632-classifier-55-tm-58-final-classifier)
-     - [6.3.3 Classifier 51 t/m 54 (Final Classifier)](#633-classifier-51-tm-54-final-classifier)
-- [7. Extra activiteiten](#7-Extra-activiteiten)
-  - [7.1 Uitleg](#71-Uitleg)
-  - [7.2 CVB-borrel](#72-CVB-borrel)
-  - [7.3 Presentaties](#73-Presentaties)
+  - [6.1 Steps in cleaning The data](#61-Steps-in-cleaning-The-data)
+  - [6.2 Removing the idle](#62-Removing-the-idle)
+- [7. Enriching the The data](#7-Enriching-the-The-data)
+  - [7.1 Creëren data](#71-creëren-data)
+    - [7.1.1 configuration](#611-configuration)
+- [6.3 Logistic regression model](#63-Logistic regression model)
+     - [6.3.3 Outcome of the model](#633-Outcome of the model)
+ - [6.3 Neural Networks](#63-Neural-Networks)
+     - [6.3.1 recurrent neural network (RNN)](#631- recurrent-neural-network-(RNN))
+     - [6.3.2 convolutional neural network](#632-convolutional-neural-network)
+
+- [7. Research paper](#7-Research-paper)
+- [7. Presentaties](#7-Presentaties)
+- [8. Self reflection](#7- Self-reflection)
 
 
-
-[1. Project Ortho eyes](#1-Project Ortho eyes)
-  [1.1. Project's scope and relevance](#2-Project's scope and relevance)
-  [1.2. Our research question](#3-Our research question)
-  [1.3. Strategy and project management](#3-Strategy and project management)
-
-[4. Raw data](#4-raw-data)
-  [4.1 Visualisatie](#41-visualisatie)
-  [4.2 Ellebooghoek](#42-ellebooghoek)
-
-[Personal development](# Personal development)
-
-
-
-2.[Project Ortho eyes](#Personal development)
-  1. [Project's scope and relevance](#Data camp courses)
-  2. [Our research question](#Our research question)
-  3. [Strategy and project management](#Strategy and project management)
-
-h
 # Personal development
 Some text.
 # Project Ortho eyes
