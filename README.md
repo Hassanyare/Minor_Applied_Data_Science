@@ -16,3 +16,9 @@ The reason I choose this minor is because there is more data available in the ci
   1. [Project's scope and relevance](#Data camp courses)
   2. [Our research question](#Our research question)
   3. [Strategy and project management](#Strategy and project management)
+
+
+## Personal development
+Some text.
+## Project Ortho eyes
+mmmm
