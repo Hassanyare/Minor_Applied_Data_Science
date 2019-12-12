@@ -29,13 +29,13 @@ The reason I choose this minor is because there is more data available in the ci
   - [6.2 Removing the idle](#62-Removing-the-idle)
 - [7. Enriching the The data](#7-Enriching-the-The-data)
   - [7.1 Creëren data](#71-creëren-data)
-    - [7.1.1 configuration](#611-configuration)
-- [6.3 Logistic regression model](#63-Logistic-regression-model)
-     - [6.3.3 Outcome of the model](#633-Outcome-of-the-model)
-     - [6.3.3 model evaluation](#633-model-evaluation)
- - [6.3 Neural Networks](#63-Neural-Networks)
-     - [6.3.1 recurrent neural network (RNN)](#631-recurrent-neural-network-(RNN))
-     - [6.3.2 convolutional neural network](#632-convolutional-neural-network)
+    - [7.1.1 configuration](#711-configuration)
+  - [7.2 Logistic regression model](#72-Logistic-regression-model)
+     - [7.2.1 Outcome of the model](#721-Outcome-of-the-model)
+     - [7.2.2 model evaluation](#722-model-evaluation)
+ - [7.3 Neural Networks](#63-Neural-Networks)
+     - [7.3.1 recurrent neural network (RNN)](#731-recurrent-neural-network-(RNN))
+     - [7.3.2 convolutional neural network](#732-convolutional-neural-network)
 
 - [7. Research paper](#7-Research-paper)
 - [7. Presentaties](#7-Presentaties)
@@ -59,3 +59,23 @@ The reason I choose this minor is because there is more data available in the ci
 ## 4.1 Flock of birds system
 ## 4.1 Raw visualization
 ## 4.1 Visualizations converted data
+
+
+# 5. Machnine Learning
+## 5.1 Machine learning Lectures
+## 5.1 Preparing data for Machine learning model
+# 6. Data Cleaning
+## 6.1 Steps in cleaning The data
+## 6.2 Removing the idle
+# 7. Enriching the The data
+## 7.1 Creëren data
+##  7.1.1 configuration
+## 7.2 Logistic regression model
+### 7.2.3 Outcome of the model
+### 7.2.3 model evaluation
+## 7.3 Neural Networks
+###  7.3.1 recurrent neural network (RNN)
+###  7.3.2 convolutional neural network
+# 8. Research paper
+# 9. Presentaties
+# 10. Self reflection
