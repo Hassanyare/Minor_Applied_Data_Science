@@ -14,7 +14,7 @@ The reason I choose this minor is because there is more data available in the ci
   - [2.3 Online courses](#23-Online-courses)
 - [3. Project Ortho Eyes](#3-Project-Ortho-Eyes)
   - [3.1 Project's scope and relevance](#31-Project's-scope-and-relevance)
-  - [3.2 Strategy](#32- Research-proposal)
+  - [3.2 Strategy](#32-Research-proposal)
      - [3.2.1 Reproducing last group's work](#321-Reproducing-last-groups-work)
      - [3.2.1 Research proposal](#321-Research-proposal)
 - [4. The data as we know](#4-The-data-as-we-know)
@@ -30,15 +30,16 @@ The reason I choose this minor is because there is more data available in the ci
 - [7. Enriching the The data](#7-Enriching-the-The-data)
   - [7.1 Creëren data](#71-creëren-data)
     - [7.1.1 configuration](#611-configuration)
-- [6.3 Logistic regression model](#63-Logistic regression model)
-     - [6.3.3 Outcome of the model](#633-Outcome of the model)
+- [6.3 Logistic regression model](#63-Logistic-regression-model)
+     - [6.3.3 Outcome of the model](#633-Outcome-of-the-model)
+     - [6.3.3 model evaluation](#633-model-evaluation)
  - [6.3 Neural Networks](#63-Neural-Networks)
-     - [6.3.1 recurrent neural network (RNN)](#631- recurrent-neural-network-(RNN))
+     - [6.3.1 recurrent neural network (RNN)](#631-recurrent-neural-network-(RNN))
      - [6.3.2 convolutional neural network](#632-convolutional-neural-network)
 
 - [7. Research paper](#7-Research-paper)
 - [7. Presentaties](#7-Presentaties)
-- [8. Self reflection](#7- Self-reflection)
+- [8. Self reflection](#7-Self-reflection)
 
 
 # Personal development
