@@ -28,6 +28,12 @@ class Exercises:
 
         self.data = self.data.rename(columns= colnames)
 
+        self.df = self.data[config.columns]
+
+        self.soorted_exercise_left = self.df_regex(r"._l_.")
+        self.soorted_exercise_right = self.df_regex(r"._r_.")
+
+
         self.dataframe = self.data[config.columns].iloc[self.get_frames()]
       
         #compute the numpy array of dataframe by using .to_numpy
@@ -55,3 +61,10 @@ class Exercises:
         for index in range(1, config.frames_counts + 1):
             frames.append(int((total_rows/ config.frames_counts) * index))
         return frames
+    
+    
+    def df_regex(self, pattern):
+        # Left          r"._l_."
+        # Right         r"._r_."
+        return self.df.filter(regex=(pattern))
+
