@@ -56,6 +56,8 @@ The reason I choose this minor is because there is more data available in the ci
 
 # 4. The data as we know
 ## 4.1 Flock of birds system
+![GitHub Logo](/images/group-foto.png)
+Format: ![Alt Text](url)
 ## 4.1 Raw visualization
 ## 4.1 Visualizations converted data
 
