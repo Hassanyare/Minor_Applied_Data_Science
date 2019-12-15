@@ -56,8 +56,7 @@ The reason I choose this minor is because there is more data available in the ci
 
 # 4. The data as we know
 ## 4.1 Flock of birds system
-![GitHub Logo](dehaagsehogeschool-my.sharepoint.com/personal/19132565_student_hhs_nl/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F19132565%5Fstudent%5Fhhs%5Fnl%2FDocuments%2FDataScience%2Fproject%2Dmanagement%2FOrhyoEyes%20fotos%2F20191009%5FAI%20bij%20schouderklachten%5FHHS%2D33%2Ejpg&parent=%2Fpersonal%2F19132565%5Fstudent%5Fhhs%5Fnl%2FDocuments%2FDataScience%2Fproject%2Dmanagement%2FOrhyoEyes%20fotos)
-Format: ![Alt Text](url)
+![Group-foto](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/group-foto.PNG)
 ## 4.1 Raw visualization
 ## 4.1 Visualizations converted data
 
