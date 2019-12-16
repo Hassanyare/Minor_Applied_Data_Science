@@ -42,11 +42,18 @@ The reason I choose this minor is because there is more data available in the ci
 
 # 1. Jargons
 
+| What:                | Meaning:                                                        |     
+| ---------------------|:---------------------------------------------------------------:|
+| Raw data             | Data from the Flock of birds system(FoB)                        |
+| Converted Data       | transformed data from ..... to Euler angles                     |     
+|                      |                                                                 |   
+
 # 2. Personal-development
 ## 2.1 DataCamp courses
-During the first few weeks of the minor i mostly worked on my python skills. I was able to finish the data camp courses and this helped me a lot in during the project. See my DataCamp statement of accomplishments in [here](https://github.com/Hassanyare/Minor_Applied_Data_Science/tree/master/DataCamp). Furtheremore, i did a lot of research on how to use certain codes and how to write object oritented python code. I would also like to Thank my feloow students from programming background who helped me write better code.
+During the first few weeks of the minor i mostly worked on my python skills. I was able to finish the data camp courses and this helped me a lot in during the project. See my DataCamp statement of accomplishments in [here](https://github.com/Hassanyare/Minor_Applied_Data_Science/tree/master/DataCamp). Furtheremore, i did a lot of research on how to use certain codes and how to write object oritented python code. I would like to thank my felow students from programming background who helped me write better code.
 ## 2.2 Machine learning
-The machine learning lectures helped me understand the bigger picture of machine learning and how to apply different techniques. To keep up with all the different terms in Datascience and machine learning in particular, i made a list of terms that were new to me. For this list you can find it [here](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/Machine%20Learning%20Terms.pdf)
+The machine learning lectures helped me understand the bigger picture of machine learning and how to apply different techniques. To keep up with all the different terms in Datascience and machine learning in particular, i made a list of terms that were new to me. For this list you can find it [here](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/Machine%20Learning%20Terms.pdf).
+For practice on what we learnt on machine learning lectures, i was able to make a classification on the left and right arm of converted data. For the code see this [link](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/src_machine-learning/left_right_clf.py). 
 ## 2.3 Online-courses
 
 # 3. Project Ortho Eyes
