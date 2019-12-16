@@ -65,7 +65,17 @@ The reason I choose this minor is because there is more data available in the ci
 ## 5.1 Machine learning Lectures
 ## 5.1 Preparing data for Machine learning model
 # 6. Data Cleaning and Enriching
+The steps in data enrichment are: 
+
+| Type                 | What they are:                                                  |     
+| ---------------------|:---------------------------------------------------------------:|
+| Resample exercises   | Reframing all the exercises into a certain frames (rows)        |
+| Frame generator      |                                                                 |     
+| occupied space (360) |                                                                 |        
+                                                    
 ## 6.1 Steps in cleaning the data
+The steps in data cleaning are:
+
 ## 6.2 Removing the idle
 ![Removing-the-idle](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/removing%20the%20idle.png)
 ## 6.3 Different methods of data enrichment
