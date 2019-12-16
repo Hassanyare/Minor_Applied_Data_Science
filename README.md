@@ -59,7 +59,7 @@ The reason I choose this minor is because there is more data available in the ci
 ![Group-foto](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/group-foto.PNG)
 ## 4.1 Raw visualization
 ## 4.1 Visualizations converted data
-
+![Visualizations-converted-data](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/all_the_data_vis.png)
 
 # 5. Machnine Learning
 ## 5.1 Machine learning Lectures
@@ -67,6 +67,7 @@ The reason I choose this minor is because there is more data available in the ci
 # 6. Data Cleaning and Enriching
 ## 6.1 Steps in cleaning the data
 ## 6.2 Removing the idle
+![Removing-the-idle](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/removing%20the%20idle.png)
 ## 6.3 Different methods of data enrichment
 # 7. Logistic regression model
 ## 7.1  Configurations
