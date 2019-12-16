@@ -11,7 +11,7 @@ The reason I choose this minor is because there is more data available in the ci
 - [2. Personal development](#2-Personal-development)
   - [2.1 DataCamp courses](#21-DataCamp-courses)
   - [2.2 Machine-learning](#22-Machine-learning)
-  - [2.3 Online courses](#23-Online-courses)
+  - [2.3 Online course](#23-Online-course)
 - [3. Project Ortho Eyes](#3-Project-Ortho-Eyes)
   - [3.1 Project's scope and relevance](#31-Project's-scope-and-relevance)
   - [3.2 Strategy](#32-Research-proposal)
@@ -53,9 +53,9 @@ The reason I choose this minor is because there is more data available in the ci
 During the first few weeks of the minor i mostly worked on my python skills. I was able to finish the data camp courses and this helped me a lot in during the project. See my DataCamp statement of accomplishments in [here](https://github.com/Hassanyare/Minor_Applied_Data_Science/tree/master/DataCamp). Furtheremore, i did a lot of research on how to use certain codes and how to write object oritented python code. I would like to thank my felow students from programming background who helped me write better code.
 ## 2.2 Machine learning
 The machine learning lectures helped me understand the bigger picture of machine learning and how to apply different techniques. To keep up with all the different terms in Datascience and machine learning in particular, i made a list of terms that were new to me. For this list you can find it [here](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/Machine%20Learning%20Terms.pdf).
-For practice on what we learnt on machine learning lectures, i was able to make a classification on the left and right arm of converted data. For the code see this [link](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/src_machine-learning/left_right_clf.py). 
-## 2.3 Online-courses
-I was also able to follow this online course on [udemy](https://www.udemy.com/course/machine-learning-with-tensorflow-for-business-intelligence/). From this course i understood both the basic and deep concepts of neural networks. For the summary i wrote on the lecture, see this [link](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/summary_deeplearning.pdf). I was able to complete the entaire course except the business case. For the exercises i did during this course see this [link].() Apart from this course i read multiple artikles on Long short-term memory and convolutional neural networks.  
+For practice on what we learnt on machine learning lectures, i was able to make a classification on the left and right arm of converted data. For the code see this [link](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/src_machine-learning/left_right_clf.py). For furthere machine learning application see chapter 5 and 7.
+## 2.3 Online-course
+I was also able to follow this online course on [udemy](https://www.udemy.com/course/machine-learning-with-tensorflow-for-business-intelligence/). From this course i understood both the basic and deep concepts of neural networks. For the summary i wrote on the course, see this [link](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/summary_deeplearning.pdf). I was able to complete the entaire course except the business case. For the exercises i did during this course see this [link].() Apart from this course i read multiple artikles on Long short-term memory and convolutional neural networks.  
 
 # 3. Project Ortho Eyes
 ## 3.1 Project's scope and relevance
@@ -72,8 +72,8 @@ I was also able to follow this online course on [udemy](https://www.udemy.com/co
 ![Visualizations-converted-data](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/all_the_data_vis.png)
 
 # 5. Machnine Learning
-## 5.1 Machine learning Lectures
 ## 5.1 Preparing data for Machine learning model
+## 5.2 The model
 # 6. Data Cleaning and Enriching
    
                                                     
