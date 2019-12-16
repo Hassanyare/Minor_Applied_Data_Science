@@ -9,7 +9,7 @@ The reason I choose this minor is because there is more data available in the ci
 
 - [1. Jargon](#1-Jargon)
 - [2. Personal development](#2-Personal-development)
-  - [2.1 Data Camp courses](#21-Data-Camp-courses)
+  - [2.1 DataCamp courses](#21-DataCamp-courses)
   - [2.2 Machine-learning](#22-Machine-learning)
   - [2.3 Online courses](#23-Online-courses)
 - [3. Project Ortho Eyes](#3-Project-Ortho-Eyes)
@@ -43,7 +43,8 @@ The reason I choose this minor is because there is more data available in the ci
 # 1. Jargons
 
 # 2. Personal-development
-## 2.1 Data Camp courses
+## 2.1 DataCamp courses
+During the first few weeks of the minor i mostly worked on my python skills. I was able to finish the data camp courses and this helped me a lot in during the project. See my DataCamp statement of accomplishments in [here](https://github.com/Hassanyare/Minor_Applied_Data_Science/tree/master/DataCamp)
 ## 2.2 Machine learning
 ## 2.3 Online-courses
 
