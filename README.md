@@ -82,7 +82,9 @@ The types of data enrichment are:
 | Frame generator      |                                                                 |     
 | occupied space (360) |                                                                 |     
 
+
 **Resample exercises** 
+
 ![Resampleexercises](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/resampled-exer.png)
 
 # 7. Logistic regression model
