@@ -7,7 +7,7 @@ from mpl_toolkits.mplot3d import Axes3D
 # import osc 
 # os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
-observations = 100000
+observations = 10000
 
 xs = np.random.uniform(low=-10, high=10, size=(observations,1))
 zs = np.random.uniform(-10, 10, (observations,1))
@@ -48,9 +48,9 @@ model.fit(training_data['inputs'], training_data['targets'],batch_size=64, epoch
 
 weights = model.layers[0].get_weights()
 
-# print(weights)
-# print(weights[0])
-# bias = model.layers[0].get_weights()[1]
+print(weights)
+print(weights[0])
+bias = model.layers[0].get_weights()[1]
 
 prediction = model.predict_on_batch(training_data['inputs'])
 
@@ -59,4 +59,4 @@ plt.xlabel('inputs')
 plt.ylabel('targets')
 
 plt.show()
-# print(prediction)
+print(prediction)
