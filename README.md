@@ -96,7 +96,7 @@ The types of data enrichment are:
 **Resample exercises** 
 
 ![Resampleexercises](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/resampled-exer.png)
-
+[See_work_done](https://dev.azure.com/DataScienceMinor/_git/Data%20Science/commits)
 # 7. Logistic regression model
 ## 7.1  Configurations
 ## 7.2 Outcome of the model
