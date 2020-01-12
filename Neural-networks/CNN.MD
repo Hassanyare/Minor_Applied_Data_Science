@@ -35,9 +35,9 @@ These is how we get the results of the model.
 confusion_matrix = metrics.confusion_matrix(y_test, y_pred)
 ```
 
-![loss](C:\Users\hassa\OneDrive\Desktop\Project_py\Minor_Applied_Data_Science\fotos\data-resampled-colour-loss.png)
+![loss](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/data-resampled-colour-loss.png)
 
-![acc](C:\Users\hassa\OneDrive\Desktop\Project_py\Minor_Applied_Data_Science\fotos\data-resampled-colour.png)
+![acc](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/data-resampled-colour.png)
 
 ## Evaluation of the models
 
