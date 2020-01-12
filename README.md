@@ -60,9 +60,9 @@ The reason I choose this minor is because there is more data available in the ci
 During the first few weeks of the minor i mostly worked on my python skills. I was able to finish the data camp courses and this helped me a lot during the project. See my DataCamp statement of accomplishments in [here](https://github.com/Hassanyare/Minor_Applied_Data_Science/tree/master/DataCamp). Furtheremore, i did a lot of research on how to use certain codes and how to write object oritented python code. I would like to thank my felow students from programming background who helped me write better code.
 ## 2.2 Machine learning
 The machine learning lectures helped me understand the bigger picture of machine learning and how to apply different techniques. To keep up with all the different terms in Datascience and machine learning in particular, i made a list of terms that were new to me. For this list you can find it [here](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/Machine%20Learning%20Terms.pdf).
-For practice on what we learnt on machine learning lectures, i was able to make a classification on the left and right arm of converted data. For the code see this [link](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/src_machine-learning/left_right_clf.py). For furthere machine learning application see chapter 5 and 7.
+For practice on what we learnt on machine learning lectures, i was able to make a classification on the left and right arm of converted data. For the code see this [link](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/src_machine-learning/left_right_clf.py). For furthere machine learning application see chapter 6.
 ## 2.3 Online course
-I was also able to follow this online course on [udemy](https://www.udemy.com/course/machine-learning-with-tensorflow-for-business-intelligence/). From this course i understood the basic concepts of deep neural networks. For the summary i wrote on this course, see this [link](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/summary_deeplearning.pdf). I was able to complete the entaire course except the business case. For the exercises i did during this course see this [link](https://github.com/Hassanyare/Minor_Applied_Data_Science/tree/master/Neural_Networks). Apart from this course i read multiple artikles on convolutional neural networks and how to optimize the hyper-parameters. 
+I was also able to follow this online course on [udemy](https://www.udemy.com/course/machine-learning-with-tensorflow-for-business-intelligence/). From this course i understood the basic concepts of deep neural networks. For the summary i wrote on this course, see this [link](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/summary_deeplearning.pdf). I was able to complete the entaire course except the business case. For the exercises i did during this course see this [link](https://github.com/Hassanyare/Minor_Applied_Data_Science/tree/master/Neural_Networks). Apart from this course i read multiple artikles on convolutional neural networks and how to optimize the hyper-parameters. For further of neural networks that i have applied during this project see this chapter 7. 
 
 # 3. Project Ortho Eyes
 ## 3.1 Project's scope and relevance
@@ -102,7 +102,7 @@ The sensors from the FoB are placed on fixed positions on a patient and the pati
 
 The dataset consists of patient groups (4 in total) with similar complaints and or diagnostics. Each patient group consists of multiple patients and each patient has done multiple exercises. There are 5 main exercises that  all the patients have in common, these are:
 
-|abbreviation |Describtion                |
+|Abbreviation |Describtion                |
 |------------:|--------------------------:|
 | AB          | Abduction                 |
 | AF          | Anteflexion               |
@@ -143,6 +143,10 @@ After inspecting the sensor data, we noticed that almost every exercise containe
 To remove this part of the data i developed a script that detects when a the movement is below or above the mean of the data at the start or end of the exercise. To calculate the start and end of the exercise, I first divided into 3 parts and caluclate the mean of each part. 
 
 ``` python
+"TODO: 
+" - Calculate the diff
+"
+
 self.difference = np.diff(self.moving_average(self.np_data))
 difference_split = np.array_split(self.difference, 6)
 self.difference_start = difference_split[0]

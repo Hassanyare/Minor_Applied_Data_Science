@@ -10,6 +10,9 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression 
 from sklearn.metrics import classification_report
 
+import seaborn as sns
+from sklearn import metrics
+
 from tools.config import config
 from patient.exercises import Exercises
 from patient.patientfolder import Patient
@@ -19,7 +22,7 @@ from patient.patientgroup import PatientGroup
 patient_groups = list()
 
 #looping through path of category and prints the groupid 
-for groupid in range(1, 5):
+for groupid in range(1, 4):
     #creating path to patientgroup
     grouppath = config.basepath.format(groupid=groupid)
     patient_groups.append(PatientGroup(grouppath))
@@ -42,7 +45,7 @@ for patientgroup in patient_groups:
                     patient_data[exercisetype].append(exercise)
                     # print(patient_data)
 
-                exercise_right = exercise.soorted_exercise_left 
+                exercise_right = exercise.soorted_exercise_right
                 exercise_left = exercise.soorted_exercise_left
 
                 if soorted_data is None:
@@ -52,15 +55,15 @@ for patientgroup in patient_groups:
                     soorted_data = np.concatenate((soorted_data, exercise_left.to_numpy()))
                 
                 #creating indicators for the left(0) and right(1)
+                indices_left  = np.zeros(len(exercise_left), dtype=int)
                 indices_right = np.ones(len(exercise_right), dtype=int)
-                indices_left = np.zeros(len(exercise_left), dtype=int)
                
                 
                 if indicator is None:
-                    indicator = np.concatenate((indices_right, indices_left))
+                    indicator = np.concatenate((indices_left, indices_right))
                 else: 
-                    indicator = np.concatenate((indicator, indices_right))
                     indicator = np.concatenate((indicator, indices_left))
+                    indicator = np.concatenate((indicator, indices_right))
 
 
 print('Shape of the X', soorted_data.shape)
@@ -82,6 +85,18 @@ y_pred = logisticReg.predict(X_test)
 
 # get the accuracy using .score and report using classification_report from sklearn
 score = logisticReg.score(X_test, y_test)
-report = classification_report(y_test, y_pred, labels=[0, 1,])
+report = classification_report(y_test, y_pred, labels=[0, 1])
 
 print(score, report)
+
+cm = metrics.confusion_matrix(y_test, y_pred)
+print(cm)
+
+plt.figure(figsize=(2,2))
+sns.heatmap(cm, annot=True, fmt=".3f", linewidths=.5, square = True, cmap = 'Blues_r')
+plt.ylabel('Actual label')
+plt.xlabel('Predicted label')
+title = 'Accuracy Score: {0}'.format(score)
+plt.title(title, size = 10)
+
+plt.show()
