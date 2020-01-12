@@ -68,7 +68,7 @@ The long term goal of the project is therefore to find an easy and accurate meas
 
 Since this is not the first iteration of the project, we decided to redo the analysis of last groups work and build upon their work. We also planned on doing research on new techniques, other than the ones last group used, to categorize the patient groups.
 
-![LONG-TERM-PLAN](C:\Users\hassa\OneDrive\Desktop\Project_py\Minor_Applied_Data_Science\fotos\plan.PNG)
+![LONG-TERM-PLAN](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/plan.PNG)
 
 During the beginning of the semister i was able to write down a cooperation agreement that could help us a project group to finish the project succesfully. For the coopartion agreement see this [link](C:\Users\hassa\OneDrive\Desktop\Project_py\Minor_Applied_Data_Science\Cooperation agreement.pdf)
 
