@@ -191,6 +191,7 @@ These are the [presentation](C:\Users\hassa\OneDrive\Desktop\Project_py\Minor_Ap
 # 10. Self reflection
 
 For the self reflection see this [link]().
+For the links to all my git commits during this semester, see this [link](https://github.com/Hassanyare/Minor_Applied_Data_Science/edit/master/git-commits.md)
 
 
 ![Group-foto](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/group-foto.PNG)
