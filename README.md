@@ -70,10 +70,8 @@ Since this is not the first iteration of the project, we decided to redo the ana
 
 ![LONG-TERM-PLAN](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/plan.PNG)
 
-During the beginning of the semister i was able to write down a cooperation agreement that could help us a project group to finish the project succesfully. For the coopartion agreement see this [link](C:\Users\hassa\OneDrive\Desktop\Project_py\Minor_Applied_Data_Science\Cooperation agreement.pdf)
+During the beginning of the semister i was able to write down a cooperation agreement that could help us a project group to finish the project succesfully. As mentioned in the [coopration-agreement] ((https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/Cooperation%20agreement.pdf)), we used Microsoft DevOps as a scrum tool. Here is the [Link](https://dev.azure.com/DataScienceMinor/Data%20Science/_workitems/recentlyupdated/) to the task i was apple to complete during the semester. 
 
-As mentioned in the coopration agreement we used Microsoft DevOps as a scrum tool. Here is the link to the task i was apple to complete.
-[Link-to-workitems](https://dev.azure.com/DataScienceMinor/Data%20Science/_workitems/recentlyupdated/)
 
 ### 3.2.1 Reproducing last group's work
 After inspecting the work from last group, we noticed that there were a lot of assumptions made in cleaning and preparing the dataset. This is why we it took as more than we expected  to finish the first part of our project. 
