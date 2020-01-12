@@ -42,25 +42,24 @@ The reason I choose this minor is because there is more data available in the ci
 
 # 1. Jargons
 
-| What:                | Meaning:                                                        |     
-| ---------------------|:---------------------------------------------------------------:|
-| Raw data             | Data from the Flock of birds system(FoB)                        |
-| Converted Data       | transformed data from ..... to Euler angles                     |     
-|                      |                                                                 |   
+| Jargon:         | Describtion:                                                                 |     
+|----------------:|---------------------------------------------------------------------------:|
+| Raw data        | Data from the Flock of birds system(FoB) X,Y,Z coordinates of each sensor  |
+| Converted Data  | Transformed data from sensor data to rotation angle between bones          |     
 
-# 2. Personal-development
+# 2. Personal development
 ## 2.1 DataCamp courses
 During the first few weeks of the minor i mostly worked on my python skills. I was able to finish the data camp courses and this helped me a lot during the project. See my DataCamp statement of accomplishments in [here](https://github.com/Hassanyare/Minor_Applied_Data_Science/tree/master/DataCamp). Furtheremore, i did a lot of research on how to use certain codes and how to write object oritented python code. I would like to thank my felow students from programming background who helped me write better code.
 ## 2.2 Machine learning
 The machine learning lectures helped me understand the bigger picture of machine learning and how to apply different techniques. To keep up with all the different terms in Datascience and machine learning in particular, i made a list of terms that were new to me. For this list you can find it [here](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/Machine%20Learning%20Terms.pdf).
 For practice on what we learnt on machine learning lectures, i was able to make a classification on the left and right arm of converted data. For the code see this [link](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/src_machine-learning/left_right_clf.py). For furthere machine learning application see chapter 5 and 7.
-## 2.3 Online-course
+## 2.3 Online course
 I was also able to follow this online course on [udemy](https://www.udemy.com/course/machine-learning-with-tensorflow-for-business-intelligence/). From this course i understood the basic concepts of deep neural networks. For the summary i wrote on this course, see this [link](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/summary_deeplearning.pdf). I was able to complete the entaire course except the business case. For the exercises i did during this course see this [link](https://github.com/Hassanyare/Minor_Applied_Data_Science/tree/master/Neural_Networks). Apart from this course i read multiple artikles on convolutional neural networks and how to optimize the hyper-parameters. 
 
 # 3. Project Ortho Eyes
 ## 3.1 Project's scope and relevance
 
-Project orth eyes is a collaboration between the Hague univeristy of Applied Sciences and Leiden University Medical Center. The project focuses on Improving treatment and diagnosis of musculoskeletal system issues, and in particular issues related with shoulder disabilities. When treating patients with limitations in shoulder movement, physio therapist use protractor or sensor system to measure the limitations of the shoulder. The former is inaccurate while the later is time consuming. 
+Project orth eyes is a collaboration between the Hague univeristy of Applied Sciences and Leiden University Medical Center (LUMC). The project focuses on Improving treatment and diagnosis of musculoskeletal system issues, and in particular issues related with shoulder disabilities. When treating patients with limitations in shoulder movement, physio therapist use protractor or sensor system to measure the limitations of the shoulder. The former is inaccurate while the later is time consuming. 
 
 The long term goal of the project is therefore to find an easy and accurate measurement system. The short term goals is: Is it possible to cluster patients in groups with similar complaints and / or similar diagnosis based on the flock of birds data? What parameters are used for this clustering?
 
@@ -84,49 +83,84 @@ For the reseach paper we come up we with the reserach question below.
 Furthermore we come up with a list of sub-questions that would insist us answering our main question. For the subquestions, see the this [link](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/Research-paper/Possible%20Research%20Questions.pdf) 
 
 # 4. The dataset
-## 4.1 Flock of birds system
-![Group-foto](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/group-foto.PNG)
+In this projcet we are using motion data optained from the Laboratorium for Kinematics en Neuromechanics (LK&N)
+of LUMC. The data is recorded using the flock of birds system (FoB), A six-degrees-of-freedom electromagnetic measurement system that measures the position and orientation data of targerts. 
+![flock-of-birds-system](C:\Users\hassa\OneDrive\Desktop\Project_py\Minor_Applied_Data_Science\fotos\FOB.png)
+
+The sensors from the FoB are placed on fixed positions on a patient and the patient does exercises as instructed by a physician. ![Position-of-sensors](C:\Users\hassa\OneDrive\Desktop\Project_py\Minor_Applied_Data_Science\fotos\sensors.png). The sensors then return the position (X,Y,Z coordinates) of the each sensor. This raw data is later converted to rotation angel relative to each bone by the LUMC. 
+
+The dataset consists of patient groups (4 in total) with similar complaints and or diagnostics. Each patient group consists of multiple patients and each patient has done multiple exercises. There are 5 main exercises that  all the patients have in common, these are:
+
+|abbreviation |Describtion                |
+|------------:|--------------------------:|
+| AB          | Abduction                 |
+| AF          | Anteflexion               |
+| RF          | Retroflexion              |
+| EH          | Endo/Exorotation coronal  |
+| EL          | Endo/Exorotation humerus  |
+
+
 ## 4.1 Data visualizations
 ![Visualizations-converted-data](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/all_the_data_vis.png)
 
-# 5. Machnine Learning
-## 5.1 Preparing data for Machine learning model
-## 5.2 The model
-# 6. Data Cleaning and Enriching
+
+# 5. Data Cleaning and Enrichment
    
                                                     
-## 6.1 Steps in cleaning the data
-The steps in data cleaning are:
+## 5.1 Data Cleaning
+ 
+Steps in data cleaning are:
 
-## 6.2 Removing the idle
+| Type                              | What they are:                                              |     
+| ----------------------------------:------------------------------------------------------------:|
+| Removing idle                     | Removing stationary data at the start and end of exercises  |
+| Splitting Double exercises        | Detect and splitting of double exercises in one file.       |    
+| Detect wrongly named exercises    | ie: if a file is named Incorrectly.                         |
+
+
+### 5.1.1 Removing the idle
 ![Removing-the-idle](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/removing%20the%20idle.png)
-## 6.3 Different methods of data enrichment
 
-Types of data enrichment: 
 
-| Type                 | What they are:                                                  |     
-| ---------------------|:---------------------------------------------------------------:|
-| Resample exercises   | Reframing all the exercises into a certain frames (rows)        |
-| Frame generator      |                                                                 |     
-| occupied space (360) |                                                                 |     
+## 5.2 Data Enrichment
+
+The exercises 
+
+| Type                 | What they are:                                                                      |     
+| ---------------------|:-----------------------------------------------------------------------------------:|
+| Default (n frames)   | Taking n frames(exercise length) that are evenly spaced from each exercise          |
+| Resample exercises   | Reframing all the exercises into a fixed frames (exercise length)                   |
+| Frame generator      | selecting more data points before and after each (n)frame,                          |
+| occupied space (360) | The space decribtion of an exercise. The movement of each exercise in 360 space     |
 
 
 **Resample exercises** 
 
 ![Resampleexercises](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/resampled-exer.png)
 
-[See_work_done](https://dev.azure.com/DataScienceMinor/_git/Data%20Science/commits?user=Hassan%20Ali&userId=d934e663-8e4d-6975-8940-c5dba5e7403e&historyType=2)
-# 7. Logistic regression model
-## 7.1  Configurations
-## 7.2 Outcome of the model
-## 7.3 Model evaluation
-# 8. Neural Networks
-## 8.1 Recurrent neural network (RNN)
-## 8.2 Convolutional neural network
-# 9. Research paper
-# 10. Presentations
-# 11. Self reflection
+
+# 6. Logistic regression model
+## 6.1 Data prepration
+## 6.2 Models
+## 7.2 Results
+## 7.3 Evaluation of the models
+
+# 7. Neural Networks
+## 7.1 Recurrent neural network (RNN)
+## 7.2 Convolutional neural network
+## 7.2.1 Data prepration
+## 7.2.2 The model
+## 7.2.3 Results
+## 7.2.4 Evaluation of the models
+
+# 8. Research paper
+# 9. Presentations
+
+These are the [presentation](C:\Users\hassa\OneDrive\Desktop\Project_py\Minor_Applied_Data_Science\presentation) that I gave during this minor.
+
+# 10. Self reflection
+
+For the self reflection see this [link]().
 
 
-
-
+![Group-foto](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/group-foto.PNG)
