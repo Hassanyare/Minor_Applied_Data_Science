@@ -93,9 +93,12 @@ Furthermore we come up with a list of sub-questions that would insist us answeri
 # 4. The dataset
 In this projcet we are using motion data optained from the Laboratorium for Kinematics en Neuromechanics (LK&N)
 of LUMC. The data is recorded using the flock of birds system (FoB), A six-degrees-of-freedom electromagnetic measurement system that measures the position and orientation data of targerts. 
-![flock-of-birds-system](C:\Users\hassa\OneDrive\Desktop\Project_py\Minor_Applied_Data_Science\fotos\FOB.png)
 
-The sensors from the FoB are placed on fixed positions on a patient and the patient does exercises as instructed by a physician. ![Position-of-sensors](C:\Users\hassa\OneDrive\Desktop\Project_py\Minor_Applied_Data_Science\fotos\sensors.png). The sensors then return the position (X,Y,Z coordinates) of the each sensor. This raw data is later converted to rotation angel relative to each bone by the LUMC. 
+![flock-of-birds-system](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/FOB.png)
+
+The sensors from the FoB are placed on fixed positions on a patient and the patient does exercises as instructed by a physician.The sensors then return the position (X,Y,Z coordinates) of the each sensor. This raw data is later converted to rotation angel relative to each bone by the LUMC. See the figure below, made by [Vincent](https://github.com/Vincentvdoord/Data-Science-KB-74), member of ortho eyes 2018/2019.
+
+![Position-of-sensors](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/sensors.png). 
 
 The dataset consists of patient groups (4 in total) with similar complaints and or diagnostics. Each patient group consists of multiple patients and each patient has done multiple exercises. There are 5 main exercises that  all the patients have in common, these are:
 
@@ -125,7 +128,7 @@ The dataset consists of patient groups (4 in total) with similar complaints and 
 Steps in data cleaning are:
 
 | Type                              | What they are:                                              |     
-| ----------------------------------:------------------------------------------------------------:|
+| ---------------------------------:|------------------------------------------------------------:|
 | Removing idle                     | Removing stationary data at the start and end of exercises  |
 | Splitting Double exercises        | Detect and splitting of double exercises in one file.       |    
 | Detect wrongly named exercises    | ie: if a file is named Incorrectly.                         |
