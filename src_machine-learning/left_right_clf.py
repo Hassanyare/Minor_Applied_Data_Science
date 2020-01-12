@@ -89,11 +89,11 @@ report = classification_report(y_test, y_pred, labels=[0, 1])
 
 print(score, report)
 
-cm = metrics.confusion_matrix(y_test, y_pred)
-print(cm)
+confusion_matrix = metrics.confusion_matrix(y_test, y_pred)
+print(confusion_matrix)
 
 plt.figure(figsize=(2,2))
-sns.heatmap(cm, annot=True, fmt=".3f", linewidths=.5, square = True, cmap = 'Blues_r')
+sns.heatmap(confusion_matrix, annot=True, fmt=".3f", linewidths=.5, square = True, cmap = 'Blues_r')
 plt.ylabel('Actual label')
 plt.xlabel('Predicted label')
 title = 'Accuracy Score: {0}'.format(score)
