@@ -1,4 +1,3 @@
-
 # Git commit records
 
 The table below are links to the contribution to the project group in the form of all the commits I submitted.
