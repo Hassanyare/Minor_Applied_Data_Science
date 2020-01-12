@@ -2,8 +2,8 @@
 
 The table below are links to the contribution to the project group in the form of all the commits I submitted.
 
-|Commit Hash (link)| Date | Branch | Description |
-| ----------------:|-----:| ------:| -----------:|
+|Commit Hash (link)| Date|Branch|Description |
+|----------------:|----:|-----:|------------:|
 [9a32087](https://dev.azure.com/DataScienceMinor/Data%20Science/_git/Data%20Science/commit/9a320875851e844fa30dc27a3242c40b76b7c0d4)|2019-12-18T15:24:02+01:00||- cnn2 cleaned - cnn2 the conv2d size = 1, width
 [f3fbf84](https://dev.azure.com/DataScienceMinor/Data%20Science/_git/Data%20Science/commit/f3fbf84436bdac4def015ffc25107cd38c177d0f)|2019-12-17T17:08:26+01:00||-  exercise.py contains lowpass filter and differentiation. - exercises have now the maximum length of frames(577).This is realised with zero padding.
 [66b0d06](https://dev.azure.com/DataScienceMinor/Data%20Science/_git/Data%20Science/commit/66b0d0603f02bc375286f3bd7e24c4436ba5d32e)|2019-12-17T14:47:33+01:00||data-clean fetched from master2.0
