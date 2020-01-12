@@ -83,7 +83,7 @@ For the reseach paper we come up we with the reserach question below.
 
 ***To what extend and in what way, can different data science techniques be used on kinematic recordings to contribute to a more valid and more reliable diagnosis, made by a doctor, on shoulder disability.***
 
-Furthermore we come up with a list of sub-questions that would insist us answering our main question. For the subquestions, see the this link. 
+Furthermore we come up with a list of sub-questions that would insist us answering our main question. For the subquestions, see the this [link](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/Research-paper/Possible%20Research%20Questions.pdf) 
 
 ## 4.1 Raw visualization
 # 4. The data as we know
