@@ -39,10 +39,6 @@ The reason I choose this minor is because there is more data available in the ci
  - [7. Neural Networks](#8-Neural-Networks)
      - [7.1 Recurrent neural network (RNN)](#81-recurrent-neural-network-(RNN))
      - [7.2 Convolutional neural network](#82-convolutional-neural-network)
-          - [7.2.1 Data prepration](##61-Data-prepration)
-          - [7.2.2 Models](##62-Models)
-          - [7.2.3 Results](##63Results)
-          - [7.2.4 Models evaluations](##63-Evaluation-of-the-models)
 
 - [8. Research paper](#7-Research-paper)
 - [9. Presentaties](#7-Presentaties)
@@ -144,7 +140,10 @@ To remove this part of the data i developed a script that detects when a the mov
 
 ``` python
 "TODO: 
-" - Calculate the diff
+- Calculate the diff 
+- Calculate the mean for the start and end
+- Get the values greater or less than the mean for the first and last parts of an exercise
+     
 "
 
 self.difference = np.diff(self.moving_average(self.np_data))
@@ -182,10 +181,10 @@ The exercises
 # 7. Neural Networks
 ## 7.1 Recurrent neural network (RNN)
 ## 7.2 Convolutional neural network
-## 7.2.1 Data prepration
-## 7.2.2 The model
-## 7.2.3 Results
-## 7.2.4 Evaluation of the models
+
+blaaaaah, blaaaaah
+
+see [link](C:\Users\hassa\OneDrive\Desktop\Project_py\Minor_Applied_Data_Science\Neural-networks\CNN.MD)
 
 # 8. Research paper
 # 9. Presentations
