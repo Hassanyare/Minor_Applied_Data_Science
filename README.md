@@ -8,37 +8,45 @@ The reason I choose this minor is because there is more data available in the ci
 # Table of Contents
 
 - [1. Jargon](#1-Jargon)
-- [2. Personal development](#2-Personal-development)
-  - [2.1 DataCamp courses](#21-DataCamp-courses)
-  - [2.2 Machine-learning](#22-Machine-learning)
-  - [2.3 Online course](#23-Online-course)
-- [3. Project Ortho Eyes](#3-Project-Ortho-Eyes)
-  - [3.1 Project's scope and relevance](#31-Project's-scope-and-relevance)
-  - [3.2 Strategy](#32-Research-proposal)
-     - [3.2.1 Reproducing last group's work](#321-Reproducing-last-groups-work)
-     - [3.2.1 Research proposal](#321-Research-proposal)
-- [4. The data as we know](#4-The-data-as-we-know)
-  - [4.1 Flock of birds system](#41-Flock-of-birds-system)
-  - [4.1 Raw visualization](#41-Raw-visualization)
-  - [4.1 Visualizations converted data](#41-Visualizations-converted-data)
-- [5. Machnine Learning](#5-Machnine-Learning)
-  - [5.1 Machine learning Lectures](#51-Machine-learning-Lectures)
-  - [5.1 Preparing data for Machine learning model](#51-Preparing-data-for-Machine-learning-model)
-- [6. Data Cleaning and Enrichment](#6-Data-cleaning-and-Enrichment)
-  - [6.1 Steps in cleaning The data](#61-Steps-in-cleaning-the-data)
-  - [6.2 Removing the idle](#62-Removing-the-idle)
-  - [6.3 Different methods of data enrichment](#63-Different-methods-of-data-enrichment)
-- [7. Logistic regression model](#7-Logistic-regression-model)
-     - [7.1 Configuration](#71-configuration)
-     - [7.2 Outcome of the model](#72-Outcome-of-the-model)
-     - [7.2 model evaluation](#72-model-evaluation)
- - [8. Neural Networks](#8-Neural-Networks)
-     - [8.1 recurrent neural network (RNN)](#81-recurrent-neural-network-(RNN))
-     - [8.2 convolutional neural network](#82-convolutional-neural-network)
 
-- [9. Research paper](#7-Research-paper)
-- [10. Presentaties](#7-Presentaties)
-- [11. Self reflection](#7-Self-reflection)
+- [2. Personal development](#2-Personal-development)
+  - [2.1 DataCamp courses](##21-DataCamp-courses)
+  - [2.2 Machine-learning](##22-Machine-learning)
+  - [2.3 Online course](##23-Online-course)
+
+- [3. Project Ortho Eyes](#3-Project-Ortho-Eyes)
+  - [3.1 Project's scope and relevance](##31-Project's-scope-and-relevance)
+  - [3.2 Strategy](##32-Research-proposal)
+     - [3.2.1 Reproducing last group's work](###321-Reproducing-last-groups-work)
+     - [3.2.1 Research proposal](###321-Research-proposal)
+     
+- [4. The data as we know](#4-The-data-as-we-know)
+  - [4.1 Flock of birds system](##41-Flock-of-birds-system)
+  - [4.1 Raw visualization](##41-Raw-visualization)
+  - [4.1 Visualizations converted data](##41-Visualizations-converted-data)
+
+- [5. Data Cleaning and Enrichment](#5-Data-cleaning-and-Enrichment)
+  - [5.1  Data Cleaning](##51-Data-Cleaning)
+     - [5.1.1 Removing the idle](###511-Removing-the-idle)
+  - [5.2 Data enrichment](##52-Data-enrichment)
+
+- [6. Logistic regression model](#6-Logistic-regression-model)
+     - [6.1 Data prepration](##61-Data-prepration)
+     - [6.2 Models](##62-Models)
+     - [6.3 Results](##63Results)
+     - [6.4 Models evaluations](##64-Models-evaluations)
+
+ - [7. Neural Networks](#8-Neural-Networks)
+     - [7.1 Recurrent neural network (RNN)](#81-recurrent-neural-network-(RNN))
+     - [7.2 Convolutional neural network](#82-convolutional-neural-network)
+          - [7.2.1 Data prepration](##61-Data-prepration)
+          - [7.2.2 Models](##62-Models)
+          - [7.2.3 Results](##63Results)
+          - [7.2.4 Models evaluations](##63-Evaluation-of-the-models)
+
+- [8. Research paper](#7-Research-paper)
+- [9. Presentaties](#7-Presentaties)
+- [10. Self reflection](#7-Self-reflection)
 
 # 1. Jargons
 
@@ -142,8 +150,8 @@ The exercises
 # 6. Logistic regression model
 ## 6.1 Data prepration
 ## 6.2 Models
-## 7.2 Results
-## 7.3 Evaluation of the models
+## 6.2 Results
+## 6.3 Evaluation of the models
 
 # 7. Neural Networks
 ## 7.1 Recurrent neural network (RNN)
