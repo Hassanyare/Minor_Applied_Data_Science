@@ -1,7 +1,7 @@
 
 # Machnine Learning
 
-For practice i did a classification on the left and right movements part of the exercises (arm). I used sklearn logistic regression as a model.
+For practice i did a classification on the left and right movements part of the exercises (arm). I used sklearn logistic regression as a model. For the complete code i wrote for this classification see this [link](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/src_machine-learning/left_right_clf.py)
 
 ## Data prepration
 
