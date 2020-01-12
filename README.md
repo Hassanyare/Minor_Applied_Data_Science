@@ -109,6 +109,11 @@ The dataset consists of patient groups (4 in total) with similar complaints and 
 
 
 ## 4.1 Data visualizations
+
+
+![Visualizations-converted-data](C:\Users\hassa\OneDrive\Desktop\Project_py\Minor_Applied_Data_Science\fotos\Visualization.gif)
+
+
 ![Visualizations-converted-data](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/all_the_data_vis.png)
 
 
@@ -130,11 +135,25 @@ Steps in data cleaning are:
 ![Removing-the-idle](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/removing%20the%20idle.png)
 
 
+After inspecting the sensor data, we noticed that almost every exercise contained an idle at the beginning and end of each exercise. An idle comes to exist between the time when a physician starting or stops the recording, and the patient actual starts or stops the exercise. In between these moments exists an almost stationary movement that is not part of the exercise. 
+
+To remove this part of the data i developed a script that detects when a the movement is below or above the mean of the data at the start or end of the exercise. To calculate the start and end of the exercise, I first divided into 3 parts and caluclate the mean of each part. 
+
+``` python
+self.difference = np.diff(self.moving_average(self.np_data))
+difference_split = np.array_split(self.difference, 6)
+self.difference_start = difference_split[0]
+self.difference_end = difference_split[-1]
+self.lenght = len(self.np_data)
+```
+
+
+
 ## 5.2 Data Enrichment
 
 The exercises 
 
-| Type                 | What they are:                                                                      |     
+| Type                 | What they are:                                                                      |  
 | ---------------------|:-----------------------------------------------------------------------------------:|
 | Default (n frames)   | Taking n frames(exercise length) that are evenly spaced from each exercise          |
 | Resample exercises   | Reframing all the exercises into a fixed frames (exercise length)                   |
