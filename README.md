@@ -83,12 +83,10 @@ For the reseach paper we come up we with the reserach question below.
 
 Furthermore we come up with a list of sub-questions that would insist us answering our main question. For the subquestions, see the this [link](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/Research-paper/Possible%20Research%20Questions.pdf) 
 
-## 4.1 Raw visualization
-# 4. The data as we know
+# 4. The dataset
 ## 4.1 Flock of birds system
 ![Group-foto](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/group-foto.PNG)
-## 4.1 Raw visualization
-## 4.1 Visualizations converted data
+## 4.1 Data visualizations
 ![Visualizations-converted-data](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/all_the_data_vis.png)
 
 # 5. Machnine Learning
@@ -104,7 +102,7 @@ The steps in data cleaning are:
 ![Removing-the-idle](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/removing%20the%20idle.png)
 ## 6.3 Different methods of data enrichment
 
-The types of data enrichment are: 
+Types of data enrichment: 
 
 | Type                 | What they are:                                                  |     
 | ---------------------|:---------------------------------------------------------------:|
