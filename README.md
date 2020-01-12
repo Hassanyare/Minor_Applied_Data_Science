@@ -114,7 +114,7 @@ The dataset consists of patient groups (4 in total) with similar complaints and 
 ## 4.1 Data visualizations
 
 
-![Visualizations-converted-data](C:\Users\hassa\OneDrive\Desktop\Project_py\Minor_Applied_Data_Science\fotos\Visualization.gif)
+![Visualizations-converted-data](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/Visualization.gif)
 
 
 ![Visualizations-converted-data](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/all_the_data_vis.png)
