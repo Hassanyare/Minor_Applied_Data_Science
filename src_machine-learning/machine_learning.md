@@ -82,7 +82,7 @@ The accuracy is 73.83%. I also computed the confusion matrix of the model using 
 ``` Python
 confusion_matrix = metrics.confusion_matrix(y_test, y_pred)
 ```
-![matrix](C:\Users\hassa\OneDrive\Desktop\Project_py\Minor_Applied_Data_Science\fotos\matrix-leftvsright.png)
+![matrix](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/matrix-leftvsright.png)
 
 ## Evaluation of the models
 
