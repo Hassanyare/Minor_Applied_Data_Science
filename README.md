@@ -184,9 +184,10 @@ The exercises
 
 blaaaaah, blaaaaah
 
-see [link](C:\Users\hassa\OneDrive\Desktop\Project_py\Minor_Applied_Data_Science\Neural-networks\CNN.MD)
+Fill in this [link](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/Neural-networks/CNN.MD) for cnn model.
 
 # 8. Research paper
+
 # 9. Presentations
 
 These are the [presentation](C:\Users\hassa\OneDrive\Desktop\Project_py\Minor_Applied_Data_Science\presentation) that I gave during this minor.
