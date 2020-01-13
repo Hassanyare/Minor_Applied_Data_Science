@@ -139,9 +139,10 @@ def end(self):
 
 ```
 
-See the figure below, which I created using the code of [Raphi](https://github.com/djbob0/Data-Science-Minor):
 
 ## Visualization:
+
+I used [Raphi's](https://github.com/djbob0/Data-Science-Minor) to visualize if the remove idle function worked correctly. The figure shows the Abduction exercise(both the left and right limb)done done by patient 1 of category 1. See the code and figure below.
 
 ```Python 
 
@@ -149,9 +150,9 @@ See the figure below, which I created using the code of [Raphi](https://github.c
 vv = Visualize(patient_groups,catagory = [1], patients=[5], exercises=['AB'], bones=["thorax_r_x_ext"])
 
 # vv.visualise(mode='exercise')
+# The red and blue line indicate the satrt and end of one limb, while the brown line indicates the other limb.
 vv.visualise(mode = 'idle')
 
 ```
-
 
 ![Removing_the_idle](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/Visualization-idle.png)
