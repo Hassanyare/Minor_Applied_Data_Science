@@ -76,13 +76,13 @@ Since this is not the first iteration of the project, we decided to redo the ana
 During the beginning of the semister i was able to write down a cooperation agreement that could help us a project group to finish the project succesfully. As mentioned in the [coopration](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/Cooperation%20agreement.pdf) agreement, we used Microsoft DevOps as a scrum tool. Here are the tasks that i did during this minor.
 
 
-![Taks-Scrum](C:\Users\hassa\OneDrive\Desktop\Minor_Applied_Data_Science\fotos\scrum-board-tasks.PNG)
+![Taks-Scrum](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/scrum-board-tasks.PNG)
 
-![Tasks-Scrum](C:\Users\hassa\OneDrive\Desktop\Minor_Applied_Data_Science\fotos\scrum-board-tasks-2.PNG) 
+![Tasks-Scrum](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/scrum-board-tasks-2.PNG) 
 
 
 ### 3.2.1 Reproducing last group's work
-After inspecting the work from last group, we noticed that there were a lot of assumptions made in cleaning and preparing the dataset. This is why we it took as more than we expected  to finish the first part of our project. 
+Tony, our project superviser sugested that we should redo the analysis made by last group. More the analysis see this [reader](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/machine-learning/machine_learning.md). 
 
 ### 3.2.2 Research proposal
 For the reseach paper we come up we with the reserach question below. 
