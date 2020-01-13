@@ -69,11 +69,15 @@ The long term goal of the project is therefore to find an easy and accurate meas
 
 ## 3.2 Strategy and planning
 
-Since this is not the first iteration of the project, we decided to redo the analysis of last groups work and build upon their work. We also planned on doing research on new techniques, other than the ones last group used, to categorize the patient groups.
+This is not the first iteration of the project, There have been two other iterations of this project. To build upon the [research](https://github.com/Hassanyare/Applied-Data-Science/blob/master/paper_ortho_eyes.pdf) done by last group, we decided to redo their analysis and validate their results. Furthermore we planned on doing research on new techniques, other than the ones last group used, to categorize the patient groups. 
+
+See the figure below for our long term plan.
 
 ![LONG-TERM-PLAN](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/plan.PNG)
 
-During the beginning of the semister i was able to write down a cooperation agreement that could help us a project group to finish the project succesfully. As mentioned in the [coopration](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/Cooperation%20agreement.pdf) agreement, we used Microsoft DevOps as a scrum tool. How scrum is used is explained in the Coopration agreement. Here are the tasks that i did during this minor. 
+At the beginning of the semister i was able to write down a [coopration](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/Cooperation%20agreement.pdf) agreement that could help us a project group to finish the project succesfully. As mentioned in the agreement, we used Microsoft DevOps as a scrum tool. How scrum is used is explained in the Coopration agreement. 
+
+Here are the tasks that i did during this minor. 
 
 |  |      |     |      |    |     |  
 |-:|----| --- | --- | --- | --- | 
@@ -97,10 +101,7 @@ During the beginning of the semister i was able to write down a cooperation agre
 |22|Task|Read paper|Done|Data Science|9/16/2019 9:03 AM
 |10|Task|Hassan|Done|Data Science|9/6/2019 9:30 PM
 
-### 3.2.1 Reproducing last group's work
-After inspecting the work from last group, we noticed that there were a lot of assumptions made in cleaning and preparing the dataset. This is why we it took as more than we expected  to finish the first part of our project. 
-
-### 3.2.2 Research proposal
+### 3.2. Research proposal
 For the reseach paper we come up we with the reserach question below. 
 
 ***To what extend and in what way, can different data science techniques be used on kinematic recordings to contribute to a more valid and more reliable diagnosis, made by a doctor, on shoulder disability.***
@@ -130,18 +131,18 @@ The dataset consists of patient groups (4 in total) with similar complaints and 
 
 ## 4.1 Data visualizations
 
+The visualization below made by [Raphi](https://github.com/djbob0/Data-Science-Minor) and [Eddie](https://github.com/v3rslu1s/Applied-Datascience) helped me understand how the data is represented. 
 
 ![Visualizations-converted-data](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/Visualization.gif)
+
 
 
 ![Visualizations-converted-data](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/all_the_data_vis.png)
 
 
-# 5. Data Cleaning and Enrichment
-   
-                                                    
+# 5. Data Cleaning and Enrichment                                                    
 ## 5.1 Data Cleaning
- 
+
 Steps in data cleaning are:
 
 | Type                              | What they are:                                              |     
@@ -155,25 +156,9 @@ Steps in data cleaning are:
 ![Removing-the-idle](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/removing%20the%20idle.png)
 
 
-After inspecting the sensor data, we noticed that almost every exercise contained an idle at the beginning and end of each exercise. An idle comes to exist between the time when a physician starting or stops the recording, and the patient actual starts or stops the exercise. In between these moments exists an almost stationary movement that is not part of the exercise. 
+After inspecting the sensor data, we noticed that almost every exercise contained an idle at the beginning and end of each exercise. An idle comes to exist between the time when a physician starting or stops the recording, and the patient actual starts or stops the exercise. In between these moments exists an almost stationary movement that is not part of the exercise.  
 
-To remove this part of the data i developed a script that detects when a the movement is below or above the mean of the data at the start or end of the exercise. To calculate the start and end of the exercise, I first divided into 3 parts and caluclate the mean of each part. 
-
-``` python
-"TODO: 
-- Calculate the diff 
-- Calculate the mean for the start and end
-- Get the values greater or less than the mean for the first and last parts of an exercise
-     
-"
-
-self.difference = np.diff(self.moving_average(self.np_data))
-difference_split = np.array_split(self.difference, 6)
-self.difference_start = difference_split[0]
-self.difference_end = difference_split[-1]
-self.lenght = len(self.np_data)
-```
-
+Removing the idle was one of the tasks I did during this minor. To remove the idle I developed a script that detects when a the movement is below or above the mean of the data at the start or end of the exercise. More this, see this [Reader](C:\Users\hassa\OneDrive\Desktop\Minor_Applied_Data_Science\machine-learning\Removing_idle.md)
 
 
 ## 5.2 Data Enrichment
