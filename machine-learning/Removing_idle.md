@@ -154,4 +154,4 @@ vv.visualise(mode = 'idle')
 ```
 
 
-![Removing_the_idle](C:\Users\hassa\OneDrive\Desktop\Minor_Applied_Data_Science\fotos\Visualization-idle.png)
+![Removing_the_idle](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/Visualization-idle.png)
