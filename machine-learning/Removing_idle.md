@@ -142,7 +142,7 @@ def end(self):
 
 ## Visualization:
 
-I used [Raphi's](https://github.com/djbob0/Data-Science-Minor) to visualize if the remove idle function worked correctly. The figure shows the Abduction exercise(both the left and right limb)done done by patient 1 of category 1. See the code and figure below.
+I used [Raphi's](https://github.com/djbob0/Data-Science-Minor) code to see if the remove idle function worked correctly. The figure shows the Abduction(AB) exercise(both the left and right limb) done done by patient 1 of category 1. See the code and figure below.
 
 ```Python 
 
