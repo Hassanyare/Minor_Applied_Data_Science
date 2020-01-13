@@ -156,7 +156,7 @@ Steps in data cleaning are:
 
 After inspecting the sensor data, we noticed that almost every exercise contained an idle at the beginning and end of each exercise. An idle comes to exist between the time when a physician starting or stops the recording, and the patient actual starts or stops the exercise. In between these moments exists an almost stationary movement that is not part of the exercise.  
 
-Removing the idle was one of the tasks I did during this minor. To remove the idle I developed a script that detects when a the movement is below or above the mean of the data at the start or end of the exercise. More this, see this [Reader](C:\Users\hassa\OneDrive\Desktop\Minor_Applied_Data_Science\machine-learning\Removing_idle.md)
+Removing the idle was one of the tasks I did during this minor. To remove the idle I developed a script that detects when a the movement is below or above the mean of the data at the start or end of the exercise. More this, see this [Reader](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/machine-learning/Removing_idle.md)
 
 
 ## 5.2 Data Enrichment
