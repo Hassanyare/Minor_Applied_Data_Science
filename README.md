@@ -75,8 +75,8 @@ Since this is not the first iteration of the project, we decided to redo the ana
 
 During the beginning of the semister i was able to write down a cooperation agreement that could help us a project group to finish the project succesfully. As mentioned in the [coopration](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/Cooperation%20agreement.pdf) agreement, we used Microsoft DevOps as a scrum tool. How scrum is used is explained in the Coopration agreement. Here are the tasks that i did during this minor. 
 
-|  |      |     |      |    |     |     |     |     |     |     |
-|-:|----| --- | --- | --- | --- | --- | --- | --- | --- | --- | 
+|  |      |     |      |    |     |  
+|-:|----| --- | --- | --- | --- | 
 |ID|Work Item Type|Title|State|Area Path|Changed Date
 |191|Task|Data: CNN datashape|To Do|Data Science|12/16/2019 2:05 PM
 |183|Task|Data: Remove Idle|Doing|Data Science|1/10/2020 9:53 AM
