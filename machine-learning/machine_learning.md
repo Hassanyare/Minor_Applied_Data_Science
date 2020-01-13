@@ -1,12 +1,12 @@
 
 # Machnine Learning
 
-For practice i did a classification on the left and right movements part of the exercises (arm). I used sklearn logistic regression as a model. For the complete code I wrote on this classification see this [link](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/src_machine-learning/left_right_clf.py)
+For practice i did a classification on the left and right movements part of an exercises (limb). I used sklearn logistic regression as a model. For the complete code I wrote on this classification see this [link](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/src_machine-learning/left_right_clf.py)
 
 
 ## Data prepration
 
-To generate the data consisting of left and right arm data, we first filter the left and right arm movements using regex. see the code below. 
+To generate the data consisting of left and right limb, I first filter the left and right limb movements using regex. see the code below. 
 ``` Python
 def df_regex(self, pattern):
     # Left          r"._l_."
@@ -14,7 +14,7 @@ def df_regex(self, pattern):
     return self.df.filter(regex=(pattern))
 ```
 
-To generate the data we loop through each patient_group, and patient data to creat a filtered data. We then convert the data to numpy array. After this, we save all the patient data, both the left and right arm to one numpy array. We then genarate the indicator(our y values). 
+To generate the data I loped through each patient_group, and patient data to creat a filtered data. I then convert the data to numpy array. After this, I saved all the patient data, both the left and right limb to one numpy array. I then genarate the indicator array(the y values). see the code below: 
 
 ```python
 Soorted_data = None
@@ -37,7 +37,7 @@ else:
 ```
 ## The model
 
-I used sklearn logistic regression to categorize the left and right arm movements. First we split the data using sklearn train_test_split function into 80/20. The use the default logistic regression model from sklearn and fit the train data into the model. Then use the test data to validate the model. 
+I used sklearn logistic regression to categorize the left and right limb movements. First we split the data using sklearn train_test_split function into 80/20. The use the default logistic regression model from sklearn and fit the train data into the model. Then use the test data to validate the model. 
 
 ```python
 
@@ -59,7 +59,7 @@ y_pred = logisticReg.predict(X_test)
 
 ## Results
 
-These is how we get the results of the model. 
+These is how I get the results of the model. 
 
 ```python
 # get the accuracy using score and model report using classification_report from sklearn
