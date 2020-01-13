@@ -3,6 +3,7 @@
 
 For practice i did a classification on the left and right movements part of the exercises (arm). I used sklearn logistic regression as a model. For the complete code I wrote on this classification see this [link](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/src_machine-learning/left_right_clf.py)
 
+
 ## Data prepration
 
 To generate the data consisting of left and right arm data, we first filter the left and right arm movements using regex. see the code below. 
@@ -90,5 +91,8 @@ The model did well, the precision and recall are both as high as the accuracy.
 
 ## Conclusion 
 
-This was a good practice for my python/machine learning skills and to understand the data as better. 
+This was a good practice for my python/machine learning skills and to understand the data better. 
 
+## Furthermore
+
+I was also able to prepare the motion data as the last project group did, namely a data set of all exercises per patient in one raw. This created datashape of (x, 650), x is the rows/ patient data and the 650 columns. For more about how i prepared this dataset, see the personal [powerpoint](C:\Users\hassa\OneDrive\Desktop\Project_py\Minor_Applied_Data_Science\presentation\personal-presentation-30-oct.pptx) I made. This way of preparing the data helped me understand the analysis the previous groups did and validating their results. 
