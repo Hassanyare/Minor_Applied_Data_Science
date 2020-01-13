@@ -1,5 +1,5 @@
 
-# Conclutional neural networks
+# Convolutional neural networks
 
 
 
