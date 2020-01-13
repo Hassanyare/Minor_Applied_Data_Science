@@ -39,9 +39,11 @@ confusion_matrix = metrics.confusion_matrix(y_test, y_pred)
 |---------|-------|--------|
 |0.649    |0.649  |0.649   |
 
-![loss](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/data-resampled-colour-loss.png)
+![loss](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/training-val-loss.png)
 
-![acc](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/data-resampled-colour.png)
+![acc](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/training-val-accuracy.png)
+
+![matrix](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/confusion_matrix_cnn.png)
 
 ## Evaluation of the models
 
