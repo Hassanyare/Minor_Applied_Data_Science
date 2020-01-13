@@ -153,8 +153,6 @@ Steps in data cleaning are:
 
 
 ### 5.1.1 Removing the idle
-![Removing-the-idle](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/removing%20the%20idle.png)
-
 
 After inspecting the sensor data, we noticed that almost every exercise contained an idle at the beginning and end of each exercise. An idle comes to exist between the time when a physician starting or stops the recording, and the patient actual starts or stops the exercise. In between these moments exists an almost stationary movement that is not part of the exercise.  
 
@@ -163,7 +161,7 @@ Removing the idle was one of the tasks I did during this minor. To remove the id
 
 ## 5.2 Data Enrichment
 
-The exercises 
+These are the data enrichments we did.  
 
 | Type                 | What they are:                                                                      |  
 | ---------------------|:-----------------------------------------------------------------------------------:|
@@ -173,16 +171,6 @@ The exercises
 | occupied space (360) | The space decribtion of an exercise. The movement of each exercise in 360 space     |
 
 
-**Resample exercises** 
-
-![Resampleexercises](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/resampled-exer.png)
-
-
-# 6. Logistic regression model
-## 6.1 Data prepration
-## 6.2 Models
-## 6.2 Results
-## 6.3 Evaluation of the models
 
 # 7. Neural Networks
 ## 7.1 Recurrent neural network (RNN)

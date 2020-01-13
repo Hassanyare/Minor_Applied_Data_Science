@@ -156,3 +156,27 @@ vv.visualise(mode = 'idle')
 ```
 
 ![Removing_the_idle](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/Visualization-idle.png)
+
+![Removing-the-idle](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/removing%20the%20idle.png)
+
+
+## Results
+These are the results of logistic regression model when the remove idle function is off/on. The data used is the resampled exercises. 
+
+
+| Accuracy  | remove_idle   | resample_exercise  |                
+| ----------|:--------------|-------------------:|
+| 0.639306  | False         | True               |
+
+
+
+| Accuracy  | remove_idle   | resample_exercise  |                
+| ----------|:--------------|-------------------:|
+| 0.661272  | True          | True               |
+
+
+The script worked well on the resempled exercises, and helped increase the overal accuracy when resempled exercise is on. This means that the code helped increase the accuracy of some models. 
+
+## Conclusion:
+
+The remove idle was a useful configuration for some models, howere it did not contribute to the top results of the different configurations we run. 
