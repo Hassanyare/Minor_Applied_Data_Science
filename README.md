@@ -67,22 +67,38 @@ Project orth eyes is a collaboration between the Hague univeristy of Applied Sci
 
 The long term goal of the project is therefore to find an easy and accurate measurement system. The short term goals is: Is it possible to cluster patients in groups with similar complaints and / or similar diagnosis based on the flock of birds data? What parameters are used for this clustering?
 
-## 3.2 Strategy 
+## 3.2 Strategy and planning
 
 Since this is not the first iteration of the project, we decided to redo the analysis of last groups work and build upon their work. We also planned on doing research on new techniques, other than the ones last group used, to categorize the patient groups.
 
 ![LONG-TERM-PLAN](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/plan.PNG)
 
-During the beginning of the semister i was able to write down a cooperation agreement that could help us a project group to finish the project succesfully. As mentioned in the [coopration](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/Cooperation%20agreement.pdf) agreement, we used Microsoft DevOps as a scrum tool. Here are the tasks that i did during this minor.
+During the beginning of the semister i was able to write down a cooperation agreement that could help us a project group to finish the project succesfully. As mentioned in the [coopration](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/Cooperation%20agreement.pdf) agreement, we used Microsoft DevOps as a scrum tool. How scrum is used is explained in the Coopration agreement. Here are the tasks that i did during this minor. 
 
-
-![Taks-Scrum](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/scrum-board-tasks.PNG)
-
-![Tasks-Scrum](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/scrum-board-tasks-2.PNG) 
-
+|  |      |     |      |    |     |     |     |     |     |     |
+|-:|----| --- | --- | --- | --- | --- | --- | --- | --- | --- | 
+|ID|Work Item Type|Title|State|Area Path|Changed Date
+|191|Task|Data: CNN datashape|To Do|Data Science|12/16/2019 2:05 PM
+|183|Task|Data: Remove Idle|Doing|Data Science|1/10/2020 9:53 AM
+|175|Task|Find the best architecture for CNN|Doing|Data Science|12/20/2019 9:37 AM
+|169|Task|Log result of the CNN script|Done|Data Science|12/12/2019 6:32 AM
+|155|Task|Understand how to train and improve RNN's|Done|Data Science|12/3/2019 7:47 PM
+|148|Task|Listing reached goals|Done|Data Science|11/19/2019 2:12 PM
+|134|Task|Check if the idle at the start and end of an exercise is an anomaly|Done|Data Science|11/15/2019 9:07 AM
+|121|Task|creating dataframe of 650 columns for the ml model|Done|Data Science|10/24/2019 9:01 PM
+|120|Task|read in filenames, files, and create metadata.|Done|Data Science|10/24/2019 9:01 PM
+|106|Task|I would like to make a presentation on how the data is prepared for ml mdoels|Done|Data Science|10/31/2019 9:57 AM
+|101|Task|Write and train a ML model on our data|Done|Data Science|10/31/2019 9:55 AM
+|81|Task|Understand the conversion of the original data to csv. The convertion with matlab|Done|Data Science|12/16/2019 1:13 PM
+|69|Task|What kind of parameters are (ideally) used by the doctors / researchers?|Done|Data Science|10/12/2019 9:22 AM
+|33|Task|General projectplanning|Done|Data Science|9/11/2019 2:08 PM
+|31|Task|Cooperation agreement|Done|Data Science|9/11/2019 2:07 PM
+|27|Task|define the process used to clean the data|Done|Data Science|9/16/2019 9:03 AM
+|22|Task|Read paper|Done|Data Science|9/16/2019 9:03 AM
+|10|Task|Hassan|Done|Data Science|9/6/2019 9:30 PM
 
 ### 3.2.1 Reproducing last group's work
-Tony, our project superviser sugested that we should redo the analysis made by last group. More the analysis see this [reader](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/machine-learning/machine_learning.md). 
+After inspecting the work from last group, we noticed that there were a lot of assumptions made in cleaning and preparing the dataset. This is why we it took as more than we expected  to finish the first part of our project. 
 
 ### 3.2.2 Research proposal
 For the reseach paper we come up we with the reserach question below. 
