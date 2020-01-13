@@ -30,19 +30,13 @@ The reason I choose this minor is because there is more data available in the ci
      - [5.1.1 Removing the idle](###511-Removing-the-idle)
   - [5.2 Data enrichment](##52-Data-enrichment)
 
-- [6. Logistic regression model](#6-Logistic-regression-model)
-     - [6.1 Data prepration](##61-Data-prepration)
-     - [6.2 Models](##62-Models)
-     - [6.3 Results](##63Results)
-     - [6.4 Models evaluations](##64-Models-evaluations)
+ - [6. Neural Networks](#6-Neural-Networks)
+     - [6.1 Convolutional neural network](#61-convolutional-neural-network)
 
- - [7. Neural Networks](#8-Neural-Networks)
-     - [7.1 Recurrent neural network (RNN)](#81-recurrent-neural-network-(RNN))
-     - [7.2 Convolutional neural network](#82-convolutional-neural-network)
-
-- [8. Research paper](#7-Research-paper)
-- [9. Presentaties](#7-Presentaties)
-- [10. Self reflection](#7-Self-reflection)
+- [7. Research paper](#7-Research-paper)
+- [8. Presentaties](#8-Presentaties)
+- [9. Reference to Git commits](#9-Reference-to-Git-commits)
+- [10. Self reflection](#9-Self-reflection)
 
 # 1. Jargons
 
@@ -170,27 +164,29 @@ These are the data enrichments we did.
 | Frame generator      | selecting more data points before and after each (n)frame,                          |
 | occupied space (360) | The space decribtion of an exercise. The movement of each exercise in 360 space     |
 
+# 6. Neural Networks
+## 6.1 Convolutional neural network
 
-
-# 7. Neural Networks
-## 7.1 Recurrent neural network (RNN)
-## 7.2 Convolutional neural network
-
-blaaaaah, blaaaaah
+fill in here general concept and goal of this predictive analysis. mension the papers you read on this topic. 
 
 Fill in this [link](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/Neural-networks/CNN.MD) for cnn model.
 
-# 8. Research paper
+# 7. Research paper
 
-# 9. Presentations
+my contribution to the paper.
+
+# 8. Presentations
 
 These are the [presentation](C:\Users\hassa\OneDrive\Desktop\Project_py\Minor_Applied_Data_Science\presentation) that I gave during this minor.
+
+
+# 9. Reference to Git commits
+
+See this [Reader](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/git-commits.md) for all my git commits on the project. 
+
 
 # 10. Self reflection
 
 For the self reflection see this [link]().
-
-For the links to all my git commits during this semester, see this [link](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/git-commits.md)
-
 
 ![Group-foto](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/group-foto.PNG)
