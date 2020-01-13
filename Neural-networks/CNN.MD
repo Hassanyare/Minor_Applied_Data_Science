@@ -35,6 +35,10 @@ These is how we get the results of the model.
 confusion_matrix = metrics.confusion_matrix(y_test, y_pred)
 ```
 
+|precision| recal |F1-score|
+|---------|-------|--------|
+|0.649    |0.649  |0.649   |
+
 ![loss](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/data-resampled-colour-loss.png)
 
 ![acc](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/data-resampled-colour.png)
