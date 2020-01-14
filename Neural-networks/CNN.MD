@@ -17,7 +17,7 @@ For preparing image data these are the steps I took.
 -   Normalize the data to be values between 0 and 1: this is good for the model
 
 This is how the genarated image data then looks like. 
-![image](C:\Users\hassa\OneDrive\Desktop\Minor_Applied_Data_Science\Neural-networks\foto's\data-resampled-color.png)
+![image](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/Neural-networks/foto's/data-resampled-color.png)
 
 I also prepared the motion dataset into other shapes, for ininstance a dataset with velocity with Arjun. However i was not able to build a model for each an every data representation. 
 
