@@ -42,13 +42,15 @@ Not augmented dataset:
 | 0.736   |0.657    |0.598  |0.626   |
 
 
-![loss](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/validation-NN/training-val-loss.png)
+![loss](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/Neural-networks/foto's/training-val-loss.png)
 
-![acc](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/validation-NN/training-val-accuracy.png)
+![acc](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/Neural-networks/foto's/training-val-accuracy.png)
 
 confusion matrix on the test dataset
-![matrix](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/validation-NN/cm-normal-data.png)
+![matrix](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/Neural-networks/foto's/cm-normal-data.png)
 
+These are the results from the confusion matrix, if we look closely per catergory. I used excel to calculate these outcomes.
+![predictions-per-class](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/Neural-networks/foto's/predictions.PNG)
 
 
 Augmentd dataset:
