@@ -19,7 +19,7 @@ For preparing image data these are the steps I took.
 This is how the genarated image data then looks like. 
 ![image](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/Neural-networks/foto's/data-resampled-color.png)
 
-I also prepared the motion dataset into other shapes, for ininstance a dataset with velocity with Arjun. However i was not able to build a model for each an every data representation. 
+I also prepared the motion dataset into other shapes, for ininstance a dataset with velocity. However i was not able to build a model for each an every data representation. Arjun worked with me on this part, he helped me on preparing the different data representations. See this [code]() for the data preparation. 
 
 ```python
 
