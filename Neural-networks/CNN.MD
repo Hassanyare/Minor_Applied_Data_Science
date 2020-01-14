@@ -35,15 +35,37 @@ These is how we get the results of the model.
 confusion_matrix = metrics.confusion_matrix(y_test, y_pred)
 ```
 
-|precision| recal |F1-score|
-|---------|-------|--------|
-|0.649    |0.649  |0.649   |
+Not augmented dataset:
 
-![loss](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/training-val-loss.png)
+|Accuracy |precision| recal |F1-score|
+|---------|---------|-------|--------|
+| 0.736   |0.657    |0.598  |0.626   |
 
-![acc](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/training-val-accuracy.png)
 
-![matrix](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/confusion_matrix_cnn.png)
+![loss](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/validation-NN/training-val-loss.png)
+
+![acc](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/validation-NN/training-val-accuracy.png)
+
+confusion matrix on the test dataset
+![matrix](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/validation-NN/cm-normal-data.png)
+
+
+
+Augmentd dataset:
+
+|Accuracy |precision| recal |F1-score|
+|---------|---------|-------|--------|
+|0.5066   |0.582    |0.545  |0.563   |
+
+
+
+![loss](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/validation-NN/training-val-loss-aug.png)
+
+![acc](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/validation-NN/training-val-accuracy-aug.png)
+
+confusion matrix on the test dataset:
+
+![matrix](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/validation-NN/cm-aug.png)
 
 ## Evaluation of the models
 
