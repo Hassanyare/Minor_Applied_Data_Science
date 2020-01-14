@@ -19,7 +19,7 @@ The reason I choose this minor is because there is more data available in the ci
   - [3.2 Strategy](##32-Research-proposal)
      - [3.2.1 Research proposal](###321-Research-proposal)
      
-- [4. The data as we know](#4-The-data-as-we-know)
+- [4. The dataset](#4-The-dataset)
   - [4.1 Flock of birds system](##41-Flock-of-birds-system)
   - [4.1 Raw visualization](##41-Raw-visualization)
   - [4.1 Visualizations converted data](##41-Visualizations-converted-data)
