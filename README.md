@@ -166,9 +166,7 @@ These are the data enrichments we did.
 # 6. Neural Networks
 ## 6.1 Convolutional neural network
 
-fill in here general concept and goal of this predictive analysis. mension the papers you read on this topic. 
-
-Fill in this [link](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/Neural-networks/CNN.MD) for cnn model.
+A convolutional neural network is a Deep Learning algorithm which can classify images by assigning importance to various aspects of the image. By read this [paper](https://arxiv.org/pdf/1610.07031.pdf), which used Convolutional neural networks on classification of motion data, i was motivated in trying to use this technique. I used Convolutional neural networks in classifing patients in groups with similar complaints using the flock of birds data. For more on this, see this [reader](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/Neural-networks/CNN.MD).
 
 # 7. Research paper
 

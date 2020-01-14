@@ -63,7 +63,7 @@ These are the predictions per class when regular dataset is used. I used excel t
 
 ## Evaluation 
 
-According to one of the Physitians, 70% accuracy of predicting the right patient group is regarded enough. The way the data is prepared was and very useful and get beter predictions. 
+According to one of the Physitians, 70% accuracy of predicting the right patient group is regarded enough. The way the data is prepared was and very useful in get beter predictions. 
 
 ## Conclusion 
 

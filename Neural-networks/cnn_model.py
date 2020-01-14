@@ -145,12 +145,12 @@ def CNN_new(train_x, train_y, valid_x, valid_y, test_x, test_y):
     predictions = model.predict(test_x)
     print('predictions shape:', predictions.shape)
 
-    #convert the one-hot-encoded predictions to normal label, I use of argmax function:
+    #convert the one-hot-encoded predictions to normal label, I use the argmax function:
     predictions = tf.argmax(predictions, axis = 1)
 
     #To compute the confusion matrix i use the tf.math.confusion_matrix
     matrix = tf.math.confusion_matrix(labels=test_y, predictions=predictions, num_classes=output_size)
-
+    tf.print(matrix)
     #Plotting the confusion_matrix
     plt.figure(figsize=(3,3))
     sns.heatmap(matrix, annot=True, fmt=".3f", linewidths=.2, square = True, cmap = 'Blues_r')
