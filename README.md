@@ -17,7 +17,6 @@ The reason I choose this minor is because there is more data available in the ci
 - [3. Project Ortho Eyes](#3-Project-Ortho-Eyes)
   - [3.1 Project's scope and relevance](##31-Project's-scope-and-relevance)
   - [3.2 Strategy](##32-Research-proposal)
-     - [3.2.1 Reproducing last group's work](###321-Reproducing-last-groups-work)
      - [3.2.1 Research proposal](###321-Research-proposal)
      
 - [4. The data as we know](#4-The-data-as-we-know)
