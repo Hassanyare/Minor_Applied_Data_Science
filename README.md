@@ -115,6 +115,7 @@ The sensors from the FoB are placed on fixed positions on a patient and the pati
 
 <details>
   <summary>Position-of-sensors</summary>
+  
 ![Position-of-sensors](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/sensors.png). 
 
 </details>
@@ -143,7 +144,7 @@ The visualization below made by [Raphi](https://github.com/djbob0/Data-Science-M
 
 <details>
   <summary>2D-Visualization</summary>
-  
+
 ![Visualizations-converted-data](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/all_the_data_vis.png)
 
 </details>
