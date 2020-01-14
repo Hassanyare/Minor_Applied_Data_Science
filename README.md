@@ -70,7 +70,8 @@ See the figure below for our long term plan.
 
 At the beginning of the semister i was able to write down a [coopration](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/Cooperation%20agreement.pdf) agreement that could help us a project group to finish the project succesfully. As mentioned in the agreement, we used Microsoft DevOps as a scrum tool. How scrum is used is explained in the Coopration agreement. 
 
-Here are the tasks that i did during this minor. 
+<details>
+  <summary>Here are the tasks that i did during this minor. </summary>
 
 |  |      |     |      |    |     |  
 |-:|----| --- | --- | --- | --- | 
@@ -94,6 +95,8 @@ Here are the tasks that i did during this minor.
 |22|Task|Read paper|Done|Data Science|9/16/2019 9:03 AM
 |10|Task|Hassan|Done|Data Science|9/6/2019 9:30 PM
 
+</details>
+
 ### 3.2. Research proposal
 For the reseach paper we come up we with the reserach question below. 
 
@@ -105,11 +108,16 @@ Furthermore we come up with a list of sub-questions that would insist us answeri
 In this projcet we are using motion data optained from the Laboratorium for Kinematics en Neuromechanics (LK&N)
 of LUMC. The data is recorded using the flock of birds system (FoB), A six-degrees-of-freedom electromagnetic measurement system that measures the position and orientation data of targerts. 
 
+
 ![flock-of-birds-system](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/FOB.png)
 
 The sensors from the FoB are placed on fixed positions on a patient and the patient does exercises as instructed by a physician.The sensors then return the position (X,Y,Z coordinates) of the each sensor. This raw data is later converted to rotation angel relative to each bone by the LUMC. See the figure below, made by [Vincent](https://github.com/Vincentvdoord/Data-Science-KB-74), member of ortho eyes 2018/2019.
 
+<details>
+  <summary>Position-of-sensors</summary>
 ![Position-of-sensors](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/sensors.png). 
+
+</details>
 
 The dataset consists of patient groups (4 in total) with similar complaints and or diagnostics. Each patient group consists of multiple patients and each patient has done multiple exercises. There are 5 main exercises that  all the patients have in common, these are:
 
@@ -126,12 +134,19 @@ The dataset consists of patient groups (4 in total) with similar complaints and 
 
 The visualization below made by [Raphi](https://github.com/djbob0/Data-Science-Minor) and [Eddie](https://github.com/v3rslu1s/Applied-Datascience) helped me understand how the data is represented. 
 
+<details>
+  <summary>Visualizations-Gif</summary>
+
 ![Visualizations-converted-data](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/Visualization.gif)
 
+</details>
 
-
+<details>
+  <summary>2D-Visualization</summary>
+  
 ![Visualizations-converted-data](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/all_the_data_vis.png)
 
+</details>
 
 # 5. Data Cleaning and Enrichment                                                    
 ## 5.1 Data Cleaning
@@ -186,4 +201,9 @@ See this [Reader](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/
 
 For the self reflection see this [link]().
 
+<details>
+  <summary>Group picture</summary>
+
 ![Group-foto](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/group-foto.PNG)
+
+</details>
