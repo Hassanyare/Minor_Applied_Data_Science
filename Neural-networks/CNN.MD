@@ -27,7 +27,7 @@ I also prepared the motion dataset into other shapes, for ininstance a dataset w
 ```
 ## The model
 
-The figure below is a representation of the model i configured to read the image data i created.  
+The figure below is a representation of the model i configured to read the image data. 
 
 ![CNN-model](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/Neural-networks/foto's/model.png)
 
