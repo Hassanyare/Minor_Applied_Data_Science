@@ -1,6 +1,6 @@
 
 # Convolutional neural networks
-![CNN-model](C:\Users\hassa\OneDrive\Desktop\Minor_Applied_Data_Science\Neural-networks\foto's\model.png)
+![CNN-model](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/Neural-networks/foto's/model.png)
 
 
 
