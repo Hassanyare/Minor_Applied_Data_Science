@@ -51,7 +51,7 @@ confusion matrix on the test dataset when the :
 ![matrix](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/validation-NN/cm-aug.png)
 
 
-From the results in the table below, I conclude that using the augmenting dataset, the model overfits on the training dataset since the validation loss increases while the train loss decreases. This is why is used the regular dataset 
+From the results in the in the graphs above, I found that when using the augmented dataset, the model overfits on the training dataset since the validation loss increases while the train loss decreases. This is why i used the regular dataset to validated and evaluate the model. 
 ## Validation 
 
 The performance as measured in the validation data shows that the model performed as expected. The validation loss decreased while the accuracy increased. This means that the model is not overfitting. The overal performanced of the model is measured by the test data. The performance of the model as measured by the test data is represented in the table below.
@@ -62,7 +62,8 @@ These are the predictions per class when regular dataset is used. I used excel t
 
 
 ## Evaluation 
-An accuracy of 
+
+According to one of the Physitians, 70% accuracy of predicting the right patient group is regarded enough. The way the data is prepared was and very useful and get beter predictions. 
 
 ## Conclusion 
 
