@@ -1,11 +1,11 @@
 
-# Convolutional neural networks
+# Convolutional neural networks(CNN)
 
 
 
 ## Data prepration
 
-After trying many other options, i found that classifying the patient groups on exercise level to work best without any biases. 
+After trying other options, i found that classifying the patient groups on exercise level to work best for CNN without any biases. 
 
 For preparing image data these are the steps I took.
 
