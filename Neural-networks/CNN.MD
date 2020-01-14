@@ -1,17 +1,35 @@
 
 # Convolutional neural networks
-![CNN-model](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/Neural-networks/foto's/model.png)
 
 
 
 ## Data prepration
 
+After trying many other options, i found that classifying the patient groups on exercise level to work best without any biases. 
+
+For preparing image data these are the steps I took.
+
+-	Generate image data for each exercises.
+-   Use the resampled exercise data since these ones have fixed rows(frames)
+-	Reshape the features that belong together into an RGB format
+    -   Reshape the x,y,z coordinates of one body part into an RGB format
+-	Place a decoder [colour bar] between the bones for the model to better differentiate between them 
+-   Normalize the data to be values between 0 and 1: this is good for the model
+
+This is how the genarated image data then looks like. 
+![image](C:\Users\hassa\OneDrive\Desktop\Minor_Applied_Data_Science\Neural-networks\foto's\data-resampled-color.png)
+
+I also prepared the motion dataset into other shapes, for ininstance a dataset with velocity with Arjun. However i was not able to build a model for each an every data representation. 
 
 ```python
 
 
 ```
 ## The model
+
+The figure below is a representation of the model i configured to read the image data i created.  
+
+![CNN-model](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/Neural-networks/foto's/model.png)
 
 
 
