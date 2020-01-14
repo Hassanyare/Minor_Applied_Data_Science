@@ -95,4 +95,4 @@ This was a good practice for my python/machine learning skills and to understand
 
 ## Furthermore
 
-I was also able to prepare the motion data as the last project group did, namely a data set of all exercises per patient in one raw. This created datashape of (x, 650), x is the rows/ patient data and the 650 columns. For more about how i prepared this dataset, see the personal [powerpoint](C:\Users\hassa\OneDrive\Desktop\Project_py\Minor_Applied_Data_Science\presentation\personal-presentation-30-oct.pptx) I made. This way of preparing the data helped me understand the analysis the previous groups did and validating their results. 
+I was also able to prepare the motion data as the last project group did, namely a data set of all exercises per patient in one raw. This created datashape of (x, 650), x is the rows/ patient data and the 650 columns. For more about how i prepared this dataset, see the personal [powerpoint](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/presentation/internal-presentation-30-oct.pdf) I made. This way of preparing the data helped me understand the analysis the previous groups did and validating their results. 
