@@ -129,6 +129,8 @@ See the figure below, made by [Vincent](https://github.com/Vincentvdoord/Data-Sc
 
 ![exercise-data](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/Visualization.gif)
 
+</details>
+
 The dataset consists of patient groups (4 in total) with similar complaints and or diagnostics. Each patient group consists of multiple patients and each patient has done multiple exercises. There are 5 main exercises that  all the patients have in common:
 
 |Abbreviation |Describtion                |
