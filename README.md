@@ -111,16 +111,25 @@ of LUMC. The data is recorded using the flock of birds system (FoB), A six-degre
 
 ![flock-of-birds-system](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/FOB.png)
 
-The sensors from the FoB are placed on fixed positions on a patient and the patient does exercises as instructed by a physician.The sensors then return the position (X,Y,Z coordinates) of the each sensor. This raw data is later converted to rotation angel relative to each bone by the LUMC. See the figure below, made by [Vincent](https://github.com/Vincentvdoord/Data-Science-KB-74), member of ortho eyes 2018/2019.
+The sensors from the FoB are placed on fixed positions on a patient and the patient does exercises as instructed by a physician.The sensors then return the position (X,Y,Z coordinates) of the each sensor. This raw data is later converted to rotation angel relative to each bone by the LUMC. 
+
+</details>
+
+See the figure below, made by [Vincent](https://github.com/Vincentvdoord/Data-Science-KB-74), member of ortho eyes 2018/2019.
 
 <details>
   <summary>Position-of-sensors</summary>
-  
+
 ![Position-of-sensors](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/sensors.png). 
 
 </details>
 
-The dataset consists of patient groups (4 in total) with similar complaints and or diagnostics. Each patient group consists of multiple patients and each patient has done multiple exercises. There are 5 main exercises that  all the patients have in common, these are:
+<details>
+  <summary>This is how the data of an exercise look like:</summary>
+
+![exercise-data](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/Visualization.gif)
+
+The dataset consists of patient groups (4 in total) with similar complaints and or diagnostics. Each patient group consists of multiple patients and each patient has done multiple exercises. There are 5 main exercises that  all the patients have in common:
 
 |Abbreviation |Describtion                |
 |------------:|--------------------------:|

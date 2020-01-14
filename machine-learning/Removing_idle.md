@@ -2,7 +2,7 @@
 # How the scripts Removing the idle works
 
 ## The Code
-The code looks only at one column (bone: humerus_r_y_plane) because here is where the idle is most Visibel. After getting the start and end for this one column, i used numpy's funcion [np.cumsum](https://docs.scipy.org/doc/numpy/reference/generated/numpy.cumsum.html) to calculate the moving average filter to remove noise out of the data. I then calculated the difference between the subsequent values using numpy function [np.diff](https://docs.scipy.org/doc/numpy/reference/generated/numpy.diff.html). Further more I split the exercise into 3 equal parts, which can be extended upto 6 parts. I tested different splits and three was the optimal amount of splits. 
+The code looks only at one column (bone: humerus_r_y_plane) because here is where the idle is most Visibel. After getting the data of this one column, i used numpy's funcion [np.cumsum](https://docs.scipy.org/doc/numpy/reference/generated/numpy.cumsum.html) to calculate the moving average filter to remove noise out of the data. I then calculated the difference between the subsequent values using numpy function [np.diff](https://docs.scipy.org/doc/numpy/reference/generated/numpy.diff.html). Further more I split the exercise into 3 equal parts, which can be extended upto 6 parts. I tested different splits and three was the optimal amount of splits. 
 
 
 ``` python
