@@ -88,9 +88,15 @@ These are the results:
 
 The performance as measured in the validation data shows that the model performed as expected. The validation loss decreased while the accuracy increased. This means that the model is not overfitting. The overal performanced of the model is measured by the test data. The performance of the model as measured by the test data is represented in the table below.
 
-These are the predictions per class when regular dataset is used. I used excel to calculate these predictions.
+
+
+<details>
+  <summary>These are the predictions per class when regular dataset is used. I used excel to calculate these predictions.
+</summary>
 
 ![predictions-per-class](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/Neural-networks/foto's/predictions.PNG)
+
+</details>
 
 
 ## Evaluation 
