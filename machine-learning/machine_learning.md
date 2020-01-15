@@ -35,23 +35,41 @@ With the code above i filtered the columns as shown below:
 To generate the data I loped through each patient_group, and patient data to creat a filtered data. I then convert the data to numpy array. After this, I saved all the patient data, both the left and right limb to one numpy array. I then genarate the indicator array(the y values). see the code below: 
 
 ```python
-Soorted_data = None
-Indicator = None
 
-if soorted_data is None:
-    soorted_data = np.concatenate((exercise_right.to_numpy(), exercise_left.to_numpy()))
-else:
-    soorted_data = np.concatenate((soorted_data, exercise_right.to_numpy()))
-    soorted_data = np.concatenate((soorted_data, exercise_left.to_numpy()))
+soorted_data = None
+indicator = None
 
-#genarating the true values (y values)
-if indicator is None:
-    indicator = np.concatenate((indices_left, indices_right))
-else: 
-    indicator = np.concatenate((indicator, indices_left))
-    indicator = np.concatenate((indicator, indices_right))
+for patientgroup in patient_groups:
+    print('patientgroup')
+    for patient in patientgroup.patients:
+        patient_data = {}
+        for exercisetype in exercisetype:
+            patient_data[exercisetype] = []
 
+            for exercise in patient.exercises:
+                if exercise.execerisegroup == exercisetype:
+                    patient_data[exercisetype].append(exercise)
+                    # print(patient_data)
 
+                exercise_right = exercise.soorted_exercise_right
+                exercise_left = exercise.soorted_exercise_left
+
+                if soorted_data is None:
+                    soorted_data = np.concatenate((exercise_right.to_numpy(), exercise_left.to_numpy()))
+                else:
+                    soorted_data = np.concatenate((soorted_data, exercise_right.to_numpy()))
+                    soorted_data = np.concatenate((soorted_data, exercise_left.to_numpy()))
+                
+                #creating indicators for the left(0) and right(1)
+                indices_left  = np.zeros(len(exercise_left), dtype=int)
+                indices_right = np.ones(len(exercise_right), dtype=int)
+               
+                
+                if indicator is None:
+                    indicator = np.concatenate((indices_left, indices_right))
+                else: 
+                    indicator = np.concatenate((indicator, indices_left))
+                    indicator = np.concatenate((indicator, indices_right))
 ```
 ## The model
 
