@@ -13,18 +13,16 @@ For preparing image data these are the steps I took.
 - Generate image data for each exercises.
 - Reshape the features that belong together into an RGB format
     - Reshape the x,y,z coordinates of one body part into an RGB format
+-	Place a decoder [colour bar] between the bones for the model to better differentiate between them 
+-   Normalize the data to be values between 0 and 1: this is good for the model
+
 <details>
   <summary>Genarated image from the converted data
 </summary>
     
-[RGB-Image](C:\Users\hassa\OneDrive\Desktop\Minor_Applied_Data_Science\Neural-networks\foto's\RGB.png)
+![image](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/Neural-networks/foto's/data-resampled-color.png)
 
 </details>
--	Place a decoder [colour bar] between the bones for the model to better differentiate between them 
--   Normalize the data to be values between 0 and 1: this is good for the model
-
-This is how the genarated image data then looks like. 
-![image](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/Neural-networks/foto's/data-resampled-color.png)
 
 I also prepared the motion dataset into other shapes, for ininstance a dataset with velocity. However i was not able to build a model for each an every data representation. Arjun worked with me on this part, he helped me on preparing the different data representations. See this [code](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/Neural-networks/dataCNN2.py) for the data preparation. 
 
