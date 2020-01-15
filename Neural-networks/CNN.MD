@@ -1,18 +1,21 @@
 
-# Convolutional neural networks(CNN)
+# Convolutional neural networks (CNN)
 
-
+Since CNN works well with image data, I created an Image data from the resampled exercises. For more on this see data preparation. I used [Tensorflow](https://www.tensorflow.org/) to build the model, because i had a course on these library and there are a lot of information about it online. 
 
 ## Data prepration
 
-After trying other options, i found that classifying the patient groups on exercise level to work best for CNN without any biases. 
+After trying other options, i found that classifying the patient groups on exercise level works best for CNN without any biases. 
 
 For preparing image data these are the steps I took.
 
--	Generate image data for each exercises.
--   Use the resampled exercise data since these ones have fixed rows(frames)
--	Reshape the features that belong together into an RGB format
-    -   Reshape the x,y,z coordinates of one body part into an RGB format
+- Use the resampled exercise data since these ones have fixed rows(frames)	
+- Generate image data for each exercises.
+- Reshape the features that belong together into an RGB format
+    - Reshape the x,y,z coordinates of one body part into an RGB format
+
+[RGB-Image](C:\Users\hassa\OneDrive\Desktop\Minor_Applied_Data_Science\Neural-networks\foto's\RGB.png)
+
 -	Place a decoder [colour bar] between the bones for the model to better differentiate between them 
 -   Normalize the data to be values between 0 and 1: this is good for the model
 
@@ -21,22 +24,35 @@ This is how the genarated image data then looks like.
 
 I also prepared the motion dataset into other shapes, for ininstance a dataset with velocity. However i was not able to build a model for each an every data representation. Arjun worked with me on this part, he helped me on preparing the different data representations. See this [code](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/Neural-networks/dataCNN2.py) for the data preparation. 
 
-```python
-
-
-```
 ## The model
 
-The figure below is a representation of the model i configured to read the image data. 
+The figure below is a representation of the model i configured to read the image data. The model consists of two main parts. The feature learning part and the classification part.  
 
 ![CNN-model](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/Neural-networks/foto's/model.png)
 
+These are the different layers of the model and what they do:
 
 
-```python
 
+| Layer                 | Describtion                                               | 
+|-----------------------|-----------------------------------------------------------|
+| [Conv2D](https://medium.com/@RaghavPrabhu/understanding-of-convolutional-neural-network-cnn-deep-learning-99760835f148)                | The convolutional leyer filters(convolves) the input data to get usefull information (feuture maps).
+| [Maxpooling](https://medium.com/@RaghavPrabhu/understanding-of-convolutional-neural-network-cnn-deep-learning-99760835f148)            | Maxpool layer reduces the dimensionality of the convolved data by selecting maximum values only.                                                      |
+| [Dropout](https://leonardoaraujosantos.gitbooks.io/artificial-inteligence/dropout_layer.html)| During trainging percentage (40%) of the neurons will be deactivated to overcome overifitting and force the model to generalize.                                                                            |
+| [Flatten](https://medium.com/@RaghavPrabhu/understanding-of-convolutional-neural-network-cnn-deep-learning-99760835f148)          | Flatten the output of the last layer into a vector so that we can feed it into a dense layer.                                                           |
+| [Fully connected layer (FC layer)](https://medium.com/@RaghavPrabhu/understanding-of-convolutional-neural-network-cnn-deep-learning-99760835f148)         |  With fully connceted layer all the features are combined in order to predict the right patient group.                                                         |   
+| Output                |  After the fully connceted layer, i used softmax function as activation function for the output layer. The softmax function interprets the final activation produced by the FC-layer as probabilities                                    |
 
-```
+### Hyper-parameters tuning
+
+**Kernal_size** - Since the data does not have the same width and hight, i choose a regtangular kernal instead of the ussual square kernal size. Also an even kernal size was adviced by most documents i read.
+
+**Dropout Percentage** - After trial and error i found that 40% to be good Percentage for the dropout layer.
+
+**Adam vs SGD** - After trial and error i found adam converges much faster to a global minimum.
+
+**Loss function** - as adivised by [Tesnorflow]() used the Sparse Categorical Crossentropy to compute the crossentropy loss between the labels and predictions.
+
 
 ## Results
 ### Augmented dataset vs reguler dataset (not augmented) vs
