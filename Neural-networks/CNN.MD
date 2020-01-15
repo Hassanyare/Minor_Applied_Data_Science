@@ -49,9 +49,9 @@ These are the different layers of the model and what they do:
 
 **Dropout Percentage** - After trial and error i found that 40% to be good Percentage for the dropout layer.
 
-**Adam vs SGD** - After trial and error i found adam converges much faster to a global minimum.
+**Adam vs SGD** - After trial and error I found [adam](https://www.tensorflow.org/api_docs/python/tf/keras/optimizers/Adam?version=stable) to be a better optimization since it converges much faster to a global minimum.
 
-**Loss function** - as adivised by [Tesnorflow]() used the Sparse Categorical Crossentropy to compute the crossentropy loss between the labels and predictions.
+**Loss function** - as adivised by [Tesnorflow](https://www.tensorflow.org/api_docs/python/tf/keras/losses/SparseCategoricalCrossentropy?version=stable) used the Sparse Categorical Crossentropy to compute the crossentropy loss between the labels and predictions.
 
 
 ## Results
