@@ -13,9 +13,13 @@ For preparing image data these are the steps I took.
 - Generate image data for each exercises.
 - Reshape the features that belong together into an RGB format
     - Reshape the x,y,z coordinates of one body part into an RGB format
-
+<details>
+  <summary>Genarated image from the converted data
+</summary>
+    
 [RGB-Image](C:\Users\hassa\OneDrive\Desktop\Minor_Applied_Data_Science\Neural-networks\foto's\RGB.png)
 
+</details>
 -	Place a decoder [colour bar] between the bones for the model to better differentiate between them 
 -   Normalize the data to be values between 0 and 1: this is good for the model
 
@@ -67,6 +71,7 @@ These are the results:
 <details>
   <summary>The graphs below, show when loss and accuracy of the model on the train and validation dataset.
 </summary>
+    
 ![loss](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/Neural-networks/foto's/training-val-loss.png)
 
 ![acc](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/Neural-networks/foto's/training-val-accuracy.png)
