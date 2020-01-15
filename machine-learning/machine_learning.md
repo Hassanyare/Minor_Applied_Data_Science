@@ -14,6 +14,24 @@ def df_regex(self, pattern):
     return self.df.filter(regex=(pattern))
 ```
 
+With the code above i filtered the columns as shown below:
+
+``` Python
+#right limb
+"thorax_r_x_ext", "thorax_r_y_ax", "thorax_r_z_lat",
+"clavicula_r_y_pro", "clavicula_r_z_ele", "clavicula_r_x_ax",
+"scapula_r_y_pro", "scapula_r_z_lat", "scapula_r_x_tilt",
+"humerus_r_y_plane", "humerus_r_z_ele", "humerus_r_y_ax",
+
+#Left limb
+"thorax_l_x_ext", "thorax_l_y_ax", "thorax_l_z_lat",
+"clavicula_l_y_pro", "clavicula_l_z_ele", "clavicula_l_x_ax",
+"scapula_l_y_pro", "scapula_l_z_lat", "scapula_l_x_tilt",
+"humerus_l_y_plane", "humerus_l_z_ele", "humerus_l_y_ax",
+"ellebooghoek_l"
+
+```
+
 To generate the data I loped through each patient_group, and patient data to creat a filtered data. I then convert the data to numpy array. After this, I saved all the patient data, both the left and right limb to one numpy array. I then genarate the indicator array(the y values). see the code below: 
 
 ```python
