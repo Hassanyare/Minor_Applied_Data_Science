@@ -216,6 +216,8 @@ For preparing image data these are the steps I took.
 <details>
   <summary>Genarated image from the converted data
 </summary>
+  
+![RGB-1](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/Neural-networks/foto's/RGB.png)
     
 ![image](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/Neural-networks/foto's/data-resampled-color.png)
 
@@ -252,11 +254,11 @@ These are the different layers of the model and what they do:
 
 **Loss function** - as adivised by [Tesnorflow](https://www.tensorflow.org/api_docs/python/tf/keras/losses/SparseCategoricalCrossentropy?version=stable) used the Sparse Categorical Crossentropy to compute the crossentropy loss between the labels and predictions.
 
+See this [link](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/Neural-networks/cnn_model.py) for the complete code of the model.
 
 ## Results
-### Augmented dataset vs reguler dataset (not augmented) vs
 
-These are the results: 
+These are the results of the model.
 
 |Accuracy |precision| recal |F1-score|
 |---------|---------|---------|------|
@@ -264,7 +266,7 @@ These are the results:
 
 
 <details>
-  <summary>The graphs below, show when loss and accuracy of the model on the train and validation dataset.
+  <summary>The graphs below, show the loss and accuracy of the model on the train and validation dataset. 
 </summary>
     
 ![loss](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/Neural-networks/foto's/training-val-loss.png)
@@ -287,7 +289,7 @@ The performance as measured in the validation data shows that the model performe
 
 
 <details>
-  <summary>These are the predictions per class when regular dataset is used. I used excel to calculate these predictions.
+  <summary>These are the predictions per class on the train dataset. I used excel to calculate these predictions.
 </summary>
 
 ![predictions-per-class](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/Neural-networks/foto's/predictions.PNG)
