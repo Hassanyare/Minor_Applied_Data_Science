@@ -254,6 +254,7 @@ These are the different layers of the model and what they do:
 
 **Loss function** - as adivised by [Tesnorflow](https://www.tensorflow.org/api_docs/python/tf/keras/losses/SparseCategoricalCrossentropy?version=stable) used the Sparse Categorical Crossentropy to compute the crossentropy loss between the labels and predictions.
 
+See this [link](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/Neural-networks/cnn_model.py) for the complete code of the model.
 
 ## Results
 
