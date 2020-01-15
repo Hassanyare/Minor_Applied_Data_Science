@@ -127,7 +127,7 @@ See the figure below, made by [Vincent](https://github.com/Vincentvdoord/Data-Sc
 <details>
   <summary>This is how the data of an exercise look like:</summary>
 
-![exercise-data](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/Visualization.gif)
+![exercise-data](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/exercise.PNG)
 
 </details>
 
