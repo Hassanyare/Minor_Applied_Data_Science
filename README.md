@@ -313,9 +313,7 @@ my contribution to the paper.
 
 # 8. Presentations
 
-These are the [presentation](C:\Users\hassa\OneDrive\Desktop\Project_py\Minor_Applied_Data_Science\presentation) that I gave during this minor.
-
-
+These are the [presentation](https://github.com/Hassanyare/Minor_Applied_Data_Science/tree/master/presentation) i did during this minor.
 # 9. Reference to Git commits
 
 See this [Reader](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/git-commits.md) for all my git commits on the project. 
