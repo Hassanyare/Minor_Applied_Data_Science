@@ -216,6 +216,8 @@ For preparing image data these are the steps I took.
 <details>
   <summary>Genarated image from the converted data
 </summary>
+  
+![RGB-1](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/Neural-networks/foto's/RGB.png)
     
 ![image](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/Neural-networks/foto's/data-resampled-color.png)
 
