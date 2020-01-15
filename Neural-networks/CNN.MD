@@ -59,34 +59,28 @@ These are the different layers of the model and what they do:
 
 These are the results: 
 
-|Type of data used  |Accuracy |precision| recal |F1-score|
-|-------------------|---------|---------|-------|--------|
-|Augmented dataset  |0.5066   |0.582    |0.545  |0.563   |
-|Reguler dataset    | 0.726   |0.657    |0.605  |0.630   |
+|Accuracy |precision| recal |F1-score|
+|---------|---------|---------|------|
+| 0.726   |0.657    |0.605    |0.630 |
 
-The graphs below, shows when regular dataset is used.
 
+<details>
+  <summary>The graphs below, show when loss and accuracy of the model on the train and validation dataset.
+</summary>
 ![loss](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/Neural-networks/foto's/training-val-loss.png)
 
 ![acc](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/Neural-networks/foto's/training-val-accuracy.png)
 
-confusion matrix on the test dataset, when regurlar dataset is used. 
+</details>
 
+<details>
+  <summary>confusion matrix on the test dataset
+</summary>
+    
 ![matrix](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/Neural-networks/foto's/cm-normal-data.png)
 
-The graphs below, shows when augmentend dataset is used.
+</details>
 
-![loss](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/validation-NN/training-val-loss-aug.png)
-
-![acc](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/validation-NN/training-val-accuracy-aug.png)
-
-
-confusion matrix on the test dataset when the :
-
-![matrix](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/validation-NN/cm-aug.png)
-
-
-From the results in the in the graphs above, I found that when using the augmented dataset, the model overfits on the training dataset since the validation loss increases while the train loss decreases. This is why i used the regular dataset to validated and evaluate the model. 
 ## Validation 
 
 The performance as measured in the validation data shows that the model performed as expected. The validation loss decreased while the accuracy increased. This means that the model is not overfitting. The overal performanced of the model is measured by the test data. The performance of the model as measured by the test data is represented in the table below.
