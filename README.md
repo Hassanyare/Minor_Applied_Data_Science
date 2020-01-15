@@ -256,9 +256,8 @@ These are the different layers of the model and what they do:
 
 
 ## Results
-### Augmented dataset vs reguler dataset (not augmented) vs
 
-These are the results: 
+These are the results of the model.
 
 |Accuracy |precision| recal |F1-score|
 |---------|---------|---------|------|
@@ -266,7 +265,7 @@ These are the results:
 
 
 <details>
-  <summary>The graphs below, show when loss and accuracy of the model on the train and validation dataset.
+  <summary>The graphs below, show the loss and accuracy of the model on the train and validation dataset. 
 </summary>
     
 ![loss](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/Neural-networks/foto's/training-val-loss.png)
@@ -289,7 +288,7 @@ The performance as measured in the validation data shows that the model performe
 
 
 <details>
-  <summary>These are the predictions per class when regular dataset is used. I used excel to calculate these predictions.
+  <summary>These are the predictions per class on the train dataset. I used excel to calculate these predictions.
 </summary>
 
 ![predictions-per-class](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/Neural-networks/foto's/predictions.PNG)
