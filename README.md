@@ -303,7 +303,8 @@ According to the research I did with my fellow students, i found that after exte
 ## 7.2 Conclusion 
 
 Given the research question mention above, after extensive data cleaning and data normalization, the logistic rigression gave and accuracy of 69% and precision and recall of:
-![metrices]()
+
+![metrices](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/Neural-networks/foto's/LG-RG.PNG)
 
 This shows that logistic regression is able to classify(cluster) patients in groups with simialar complaints and or similar diagnosis based on the FoB flock of birds data. 
 
