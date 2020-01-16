@@ -1,6 +1,8 @@
 # Minor_Applied_Data_Science
-Welcome to my portfolio on the tasks I have done and been part of during my minor Applied data science at the Hague University of Applied Sciences. 
+Welcome to my portfolio on the tasks I have done and been part of during my minor Applied Data Science at the Hague University of Applied Sciences. 
 
+Name: Hassan Ali
+Student number: 17021308
 
 # Table of Contents
 
