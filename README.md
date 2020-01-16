@@ -296,13 +296,11 @@ Furthermore we come up with a list of sub-questions that would insist us answeri
 
 For the contributions to the project see my self reflection.
 
-# 8. Evaluation 
+## 7.1 Evaluation 
 
 According to the research I did with my fellow students, i found that after extensive data cleaning, the logistic regression was not able to classify patient group 2 from 3. After i tried CNN on the same dataset, after cleaned it gave better results in differentiating patient group 2 from 3. That is why i recommend the next project group to look at CNN as an alternative model than logistic regression. 
 
-# 9. Conclusion 
-The student has discussed the results, illustrated by examples (qualitative analysis)and answers the original research questions based on the findings in this study and has tested the outcomes for statistical significance.
-
+## 7.2 Conclusion 
 
 Given the research question mention above, after extensive data cleaning and data normalization, the logistic rigression gave and accuracy of 69% and precision and recall of:
 ![metrices]()
@@ -310,15 +308,15 @@ Given the research question mention above, after extensive data cleaning and dat
 This shows that logistic regression is able to classify(cluster) patients in groups with simialar complaints and or similar diagnosis based on the FoB flock of birds data. 
 
 
-# 10. Presentations
+# 8. Presentations
 
 These are the [presentation](https://github.com/Hassanyare/Minor_Applied_Data_Science/tree/master/presentation) i did during this minor.
-# 11. Reference to Git commits
+# 9. Reference to Git commits
 
 See this [Reader](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/git-commits.md) for all my git commits on the project. 
 
 
-# 12. Self reflection
+# 10. Self reflection
 
 For the self reflection see this [link]().
 
