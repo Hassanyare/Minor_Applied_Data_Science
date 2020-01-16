@@ -294,7 +294,7 @@ For research we come up we with the main question below.
 
 Furthermore we come up with a list of sub-questions that would insist us answering our main question. For the subquestions, see the this [link](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/Research-paper/Possible%20Research%20Questions.pdf) 
 
-For the contributions to the res see my self reflection.
+For the contributions to the research see my self reflection.
 
 ## 7.1 Evaluation 
 
@@ -319,7 +319,7 @@ See this [Reader](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/
 
 # 10. Self reflection
 
-For the self reflection see this [link]().
+For the self reflection see this [link](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/Reflection.pdf).
 
 
 ![Group-picture](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/group-foto.PNG)
