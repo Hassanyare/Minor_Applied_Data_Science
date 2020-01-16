@@ -296,6 +296,8 @@ Furthermore we come up with a list of sub-questions that would insist us answeri
 
 For the contributions to the research see my self reflection.
 
+Here is the link to the paper research papaer we wrote: [**Research-papaer**](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/Ortho_Eyes_Paper(1).pdf)
+
 ## 7.1 Evaluation 
 
 According to the research I did with my fellow students, i found that after extensive data cleaning, the logistic regression was not able to classify patient group 2 from 3. After i tried CNN on the same dataset, after cleaned it gave better results in differentiating patient group 2 from 3. That is why i recommend the next project group to look at CNN as an alternative model than logistic regression. 
@@ -312,6 +314,7 @@ This shows that logistic regression is able to classify(cluster) patients in gro
 # 8. Presentations
 
 These are the [presentation](https://github.com/Hassanyare/Minor_Applied_Data_Science/tree/master/presentation) i did during this minor.
+
 # 9. Reference to Git commits
 
 See this [Reader](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/git-commits.md) for all my git commits on the project. 
