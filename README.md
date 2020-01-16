@@ -322,7 +322,5 @@ See this [Reader](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/
 For the self reflection see this [link]().
 
 
-
-
 ![Group-picture](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/group-foto.PNG)
 
