@@ -294,7 +294,7 @@ For research we come up we with the main question below.
 
 Furthermore we come up with a list of sub-questions that would insist us answering our main question. For the subquestions, see the this [link](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/Research-paper/Possible%20Research%20Questions.pdf) 
 
-For the contributions to the project see my self reflection.
+For the contributions to the res see my self reflection.
 
 ## 7.1 Evaluation 
 
