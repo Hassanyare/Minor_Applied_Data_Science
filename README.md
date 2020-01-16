@@ -2,7 +2,6 @@
 Welcome to my portfolio on the tasks I have done and been part of during my minor Applied data science at the Hague University of Applied Sciences. 
 
 
-
 # Table of Contents
 
 - [1. Jargon](#1-Jargon)
@@ -30,7 +29,9 @@ Welcome to my portfolio on the tasks I have done and been part of during my mino
  - [6. Neural Networks](#6-Neural-Networks)
      - [6.1 Convolutional neural network](#61-convolutional-neural-network)
 
-- [7. Research paper](#7-Research-paper)
+- [7. Research ](#7-Research)
+  - [7.1 Evaluation](#7-Evaluation)
+  - [7.2 Conclusion ](#7-Conclusion)
 - [8. Presentaties](#8-Presentaties)
 - [9. Reference to Git commits](#9-Reference-to-Git-commits)
 - [10. Self reflection](#9-Self-reflection)
@@ -54,19 +55,15 @@ I was also able to follow this online course on [udemy](https://www.udemy.com/co
 # 3. Project Ortho Eyes
 ## 3.1 Project's scope and relevance
 
-Project orth eyes is a collaboration between the Hague univeristy of Applied Sciences and Leiden University Medical Center (LUMC). The project focuses on Improving treatment and diagnosis of musculoskeletal system issues, and in particular issues related with shoulder disabilities. When treating patients with limitations in shoulder movement, physio therapist use protractor or sensor system to measure the limitations of the shoulder. The former is inaccurate while the later is time consuming. For the research project see chapter 7.
+Project orth eyes is a collaboration between the Hague univeristy of Applied Sciences and Leiden University Medical Center (LUMC). The project focuses on Improving treatment and diagnosis of musculoskeletal system issues, and in particular issues related with shoulder disabilities. When treating patients with limitations in shoulder movement, physio therapist use protractor or sensor system to measure the limitations of the shoulder. The former is inaccurate while the later is time consuming. 
 
 The long term goal of the project is therefore to find an easy and accurate measurement system. The short term goals is: Is it possible to cluster patients in groups with similar complaints and / or similar diagnosis based on the flock of birds data? What parameters are used for this clustering?
 
 ## 3.2 Strategy and planning
 
-This is not the first iteration of the project, There have been two other iterations of this project. To build upon the [research](https://github.com/Hassanyare/Applied-Data-Science/blob/master/paper_ortho_eyes.pdf) done by last group, we decided to redo their analysis and validate their results. Furthermore we planned on doing research on new techniques, other than the ones last group used, to categorize the patient groups. 
+This is not the first iteration of the project, There have been two other iterations of this project. After fact checking the [research](https://github.com/Hassanyare/Applied-Data-Science/blob/master/paper_ortho_eyes.pdf) done by last group, we found that they made a sumptions on the columns(bone names) and labeling the exercises. That is why we would like redo their analysis using labeled data by LUMC physicians to categorize the patient groups. 
 
-See the figure below for our long term plan.
-
-![LONG-TERM-PLAN](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/plan.PNG)
-
-At the beginning of the semister i was able to write down a [coopration](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/Cooperation%20agreement.pdf) agreement that could help us a project group to finish the project succesfully. As mentioned in the agreement, we used Microsoft DevOps as a scrum tool. How scrum is used is explained in the Coopration agreement. 
+Furthermore, at the beginning of the semister i was able to write down a [coopration](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/Cooperation%20agreement.pdf) agreement that could help us a project group to finish the project succesfully. As mentioned in the agreement, we used Microsoft DevOps as a scrum tool. How scrum is used is explained in the Coopration agreement. 
 
 <details>
   <summary>Here are the tasks that i did during this minor. </summary>
@@ -95,12 +92,6 @@ At the beginning of the semister i was able to write down a [coopration](https:/
 
 </details>
 
-### 3.2. Research proposal
-For the reseach paper we come up we with the reserach question below. 
-
-***To what extend and in what way, can different data science techniques be used on kinematic recordings to contribute to a more valid and more reliable diagnosis, made by a doctor, on shoulder disability.***
-
-Furthermore we come up with a list of sub-questions that would insist us answering our main question. For the subquestions, see the this [link](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/Research-paper/Possible%20Research%20Questions.pdf) 
 
 # 4. The dataset
 In this projcet we are using motion data optained from the Laboratorium for Kinematics en Neuromechanics (LK&N)
@@ -295,35 +286,44 @@ The performance as measured in the validation data shows that the model performe
 </details>
 
 
-## Evaluation 
+# 7. Research 
 
-According to one of the Physitians, 70% accuracy of predicting the right patient group is regarded enough. The way the data is prepared was and very useful in get beter predictions. 
+For research we come up we with the main question below. 
 
-## Conclusion 
+***To what extend and in what way, can different supervised data science techniques be used on kinematic recordings to contribute to a more valid and more reliable diagnosis, made by a doctor, on shoulder disability.***
 
-Convolutional neural networks are able to classify(cluster) patients in groups with simialar complaints and or similar diagnosis based on the FoB flock of birds data. For further research I recommend transfer learning with pretrained convolutional neural networks.    
+Furthermore we come up with a list of sub-questions that would insist us answering our main question. For the subquestions, see the this [link](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/Research-paper/Possible%20Research%20Questions.pdf) 
+
+For the contributions to the project see my self reflection.
+
+# 8. Evaluation 
+
+According to the research I did with my fellow students, i found that after extensive data cleaning, the logistic regression was not able to classify patient group 2 from 3. After i tried CNN on the same dataset, after cleaned it gave better results in differentiating patient group 2 from 3. That is why i recommend the next project group to look at CNN as an alternative model than logistic regression. 
+
+# 9. Conclusion 
+The student has discussed the results, illustrated by examples (qualitative analysis)and answers the original research questions based on the findings in this study and has tested the outcomes for statistical significance.
 
 
+Given the research question mention above, after extensive data cleaning and data normalization, the logistic rigression gave and accuracy of 69% and precision and recall of:
+![metrices]()
 
-# 7. Research paper
+This shows that logistic regression is able to classify(cluster) patients in groups with simialar complaints and or similar diagnosis based on the FoB flock of birds data. 
 
-my contribution to the paper.
 
-# 8. Presentations
+# 10. Presentations
 
 These are the [presentation](https://github.com/Hassanyare/Minor_Applied_Data_Science/tree/master/presentation) i did during this minor.
-# 9. Reference to Git commits
+# 11. Reference to Git commits
 
 See this [Reader](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/git-commits.md) for all my git commits on the project. 
 
 
-# 10. Self reflection
+# 12. Self reflection
 
 For the self reflection see this [link]().
 
-<details>
-  <summary>Group picture</summary>
 
-![Group-foto](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/group-foto.PNG)
 
-</details>
+
+![Group-picture](https://github.com/Hassanyare/Minor_Applied_Data_Science/blob/master/fotos/group-foto.PNG)
+
